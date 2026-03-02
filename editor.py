@@ -9,6 +9,7 @@ CATEGORIES_DIR = os.path.join(SCRIPT_DIR, "categories")
 
 TEMPLATE = {"id": "", "title": "", "description": ""}
 
+
 def list_json_files(folder: str) -> list[str]:
     files = []
     try:
@@ -20,6 +21,7 @@ def list_json_files(folder: str) -> list[str]:
     files.sort(key=lambda s: s.lower())
     return files
 
+
 def slugify(text: str) -> str:
     text = text.strip().lower()
     text = re.sub(r"[^\w\s-]", "", text, flags=re.UNICODE)
@@ -27,18 +29,20 @@ def slugify(text: str) -> str:
     text = re.sub(r"-{2,}", "-", text)
     return text.strip("-")
 
+
 def normalize_loaded_json(loaded):
     if isinstance(loaded, dict) and "pages" in loaded and isinstance(loaded["pages"], list):
         return loaded["pages"], loaded
     if isinstance(loaded, list):
         return loaded, None
-    raise ValueError("Unsupported JSON format. Expected {\"pages\": [...]} or a list.")
+    raise ValueError('Unsupported JSON format. Expected {"pages": [...]} or a list.')
+
 
 class JsonGui(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("JSON Pages Editor")
-        self.geometry("900x580")
+        self.state("zoomed")
 
         self.current_file = None
         self.pages = []
@@ -46,49 +50,59 @@ class JsonGui(tk.Tk):
         self.selected_index = None
 
         self.files = list_json_files(CATEGORIES_DIR)
+
+        self.file_var = tk.StringVar(value="")
+        self.status_var = tk.StringVar(value="")
+
         self.build_ui()
 
         if self.files:
-            self.file_var.set(self.files[0])
-            self.load_selected()
+            self.select_category_by_name(self.files[0])
         else:
             messagebox.showwarning("No JSON files", f"No .json files found in:\n{CATEGORIES_DIR}")
+            self.set_status("No JSON files found")
 
     def build_ui(self):
         top = ttk.Frame(self, padding=10)
         top.pack(fill="x")
 
-        ttk.Label(top, text="JSON file").pack(side="left")
+        ttk.Button(top, text="Reload list", command=self.reload_list).pack(side="left")
+        ttk.Button(top, text="Save", command=self.save_json).pack(side="left", padx=8)
 
-        self.file_var = tk.StringVar(value=self.files[0] if self.files else "")
-        self.file_combo = ttk.Combobox(
-            top,
-            textvariable=self.file_var,
-            values=self.files,
-            state="readonly",
-            width=55,
-        )
-        self.file_combo.pack(side="left", padx=8)
-        self.file_combo.bind("<<ComboboxSelected>>", lambda e: self.load_selected())
-
-        ttk.Button(top, text="Reload list", command=self.reload_list).pack(side="left", padx=6)
-        ttk.Button(top, text="Save", command=self.save_json).pack(side="left", padx=6)
+        ttk.Label(top, text="Current category").pack(side="left", padx=(16, 6))
+        ttk.Label(top, textvariable=self.file_var).pack(side="left")
 
         main = ttk.Frame(self, padding=10)
         main.pack(fill="both", expand=True)
 
-        left = ttk.Frame(main)
-        left.pack(side="left", fill="both", expand=True)
+        sidebar = ttk.Frame(main)
+        sidebar.pack(side="left", fill="y")
+
+        mid = ttk.Frame(main)
+        mid.pack(side="left", fill="both", expand=True, padx=(12, 0))
 
         right = ttk.Frame(main)
         right.pack(side="right", fill="y", padx=(12, 0))
 
-        ttk.Label(left, text="Pages").pack(anchor="w")
+        ttk.Label(sidebar, text="Categories").pack(anchor="w")
 
-        list_frame = ttk.Frame(left)
+        cat_frame = ttk.Frame(sidebar)
+        cat_frame.pack(fill="y", expand=True, pady=(6, 0))
+
+        self.cat_listbox = tk.Listbox(cat_frame, height=28, exportselection=False, width=34)
+        self.cat_listbox.pack(side="left", fill="y", expand=False)
+        self.cat_listbox.bind("<<ListboxSelect>>", lambda e: self.on_category_click())
+
+        cat_scroll = ttk.Scrollbar(cat_frame, orient="vertical", command=self.cat_listbox.yview)
+        cat_scroll.pack(side="right", fill="y")
+        self.cat_listbox.config(yscrollcommand=cat_scroll.set)
+
+        ttk.Label(mid, text="Pages").pack(anchor="w")
+
+        list_frame = ttk.Frame(mid)
         list_frame.pack(fill="both", expand=True, pady=(6, 0))
 
-        self.listbox = tk.Listbox(list_frame, height=22)
+        self.listbox = tk.Listbox(list_frame, height=22, exportselection=False)
         self.listbox.pack(side="left", fill="both", expand=True)
         self.listbox.bind("<<ListboxSelect>>", lambda e: self.pick_from_list())
 
@@ -107,7 +121,9 @@ class JsonGui(tk.Tk):
 
         ttk.Label(form, text="Id").grid(row=2, column=0, sticky="w")
         self.id_var = tk.StringVar()
-        ttk.Entry(form, textvariable=self.id_var, width=46).grid(row=3, column=0, columnspan=2, sticky="we", pady=(0, 8))
+        ttk.Entry(form, textvariable=self.id_var, width=46).grid(
+            row=3, column=0, columnspan=2, sticky="we", pady=(0, 8)
+        )
 
         ttk.Label(form, text="Description").grid(row=4, column=0, sticky="w")
         self.desc_text = tk.Text(form, width=46, height=9, wrap="word")
@@ -121,44 +137,85 @@ class JsonGui(tk.Tk):
         ttk.Button(btn_row, text="Update", command=self.update_page).pack(side="left", padx=6)
         ttk.Button(btn_row, text="Delete", command=self.delete_page).pack(side="left", padx=6)
 
-        search = ttk.LabelFrame(right, text="Find by id", padding=10)
+        search = ttk.LabelFrame(right, text="Find by title", padding=10)
         search.pack(fill="x", pady=(10, 0))
 
-        ttk.Label(search, text="Id").grid(row=0, column=0, sticky="w")
-        self.search_id_var = tk.StringVar()
-        search_entry = ttk.Entry(search, textvariable=self.search_id_var, width=34)
+        ttk.Label(search, text="Title").grid(row=0, column=0, sticky="w")
+        self.search_title_var = tk.StringVar()
+        search_entry = ttk.Entry(search, textvariable=self.search_title_var, width=34)
         search_entry.grid(row=1, column=0, sticky="we", padx=(0, 6))
-        search_entry.bind("<Return>", lambda e: self.search_by_id())
-        ttk.Button(search, text="Find", command=self.search_by_id).grid(row=1, column=1, sticky="e")
+        search_entry.bind("<Return>", lambda e: self.search_by_title())
+        ttk.Button(search, text="Find", command=self.search_by_title).grid(row=1, column=1, sticky="e")
 
-        self.status_var = tk.StringVar(value="")
         ttk.Label(right, textvariable=self.status_var).pack(anchor="w", pady=(10, 0))
 
+        self.refresh_category_list()
         self.new_template()
+        self.set_status("Ready")
+
+    def set_status(self, text: str):
+        self.status_var.set(text)
+
+    def refresh_category_list(self):
+        current_name = os.path.basename(self.current_file) if self.current_file else ""
+        self.cat_listbox.delete(0, tk.END)
+        for name in self.files:
+            self.cat_listbox.insert(tk.END, name)
+        if current_name and current_name in self.files:
+            self.select_category_by_name(current_name, load=False)
+
+    def select_category_by_name(self, name: str, load: bool = True):
+        if name not in self.files:
+            return
+        idx = self.files.index(name)
+        self.cat_listbox.selection_clear(0, tk.END)
+        self.cat_listbox.selection_set(idx)
+        self.cat_listbox.see(idx)
+        if load:
+            self.load_selected(name)
+
+    def on_category_click(self):
+        sel = self.cat_listbox.curselection()
+        if not sel:
+            return
+        i = int(sel[0])
+        if i < 0 or i >= len(self.files):
+            return
+        name = self.files[i]
+        if self.current_file and os.path.basename(self.current_file) == name:
+            return
+        self.load_selected(name)
 
     def reload_list(self):
+        keep = os.path.basename(self.current_file) if self.current_file else ""
         self.files = list_json_files(CATEGORIES_DIR)
-        self.file_combo["values"] = self.files
-        if self.files:
-            if self.file_var.get() not in self.files:
-                self.file_var.set(self.files[0])
-            self.load_selected()
-        else:
+
+        self.refresh_category_list()
+
+        if not self.files:
             self.file_var.set("")
             self.current_file = None
             self.pages = []
             self.wrapper = None
+            self.selected_index = None
             self.refresh_list()
             self.new_template()
+            self.set_status("No JSON files found")
+            return
 
-    def selected_path(self):
-        name = self.file_var.get().strip()
+        if keep and keep in self.files:
+            self.select_category_by_name(keep)
+        else:
+            self.select_category_by_name(self.files[0])
+
+    def path_for_name(self, name: str):
+        name = (name or "").strip()
         if not name:
             return None
         return os.path.join(CATEGORIES_DIR, name)
 
-    def load_selected(self):
-        path = self.selected_path()
+    def load_selected(self, file_name: str):
+        path = self.path_for_name(file_name)
         if not path:
             return
         try:
@@ -170,16 +227,20 @@ class JsonGui(tk.Tk):
             cleaned = []
             for it in pages:
                 if isinstance(it, dict):
-                    cleaned.append({
-                        "id": str(it.get("id", "")).strip(),
-                        "title": str(it.get("title", "")).strip(),
-                        "description": str(it.get("description", "")).strip(),
-                    })
+                    cleaned.append(
+                        {
+                            "id": str(it.get("id", "")).strip(),
+                            "title": str(it.get("title", "")).strip(),
+                            "description": str(it.get("description", "")).strip(),
+                        }
+                    )
 
             self.pages = cleaned
             self.wrapper = wrapper
             self.current_file = path
             self.selected_index = None
+
+            self.file_var.set(os.path.basename(self.current_file))
             self.refresh_list()
             self.new_template()
             self.set_status(f"Loaded {len(self.pages)} pages")
@@ -188,9 +249,11 @@ class JsonGui(tk.Tk):
             self.wrapper = None
             self.current_file = path
             self.selected_index = None
+            self.file_var.set(os.path.basename(self.current_file) if self.current_file else "")
             self.refresh_list()
             self.new_template()
             messagebox.showerror("Load failed", f"Could not load JSON:\n{e}")
+            self.set_status("Load failed")
 
     def save_json(self):
         if not self.current_file:
@@ -209,6 +272,7 @@ class JsonGui(tk.Tk):
             messagebox.showinfo("Saved", "JSON saved successfully.")
         except Exception as e:
             messagebox.showerror("Save failed", f"Could not save JSON:\n{e}")
+            self.set_status("Save failed")
 
     def refresh_list(self):
         self.listbox.delete(0, tk.END)
@@ -216,11 +280,16 @@ class JsonGui(tk.Tk):
             label = it.get("title") or it.get("id") or "(empty)"
             self.listbox.insert(tk.END, label)
 
-    def set_status(self, text):
-        self.status_var.set(text)
-
     def on_title_change(self, event=None):
-        pass
+        if self.selected_index is not None:
+            return
+        current_id = self.id_var.get().strip()
+        if current_id:
+            return
+        title = self.title_var.get().strip()
+        if not title:
+            return
+        self.id_var.set(slugify(title))
 
     def read_form(self):
         return {
@@ -258,18 +327,24 @@ class JsonGui(tk.Tk):
         self.write_form(self.pages[idx])
         self.set_status(f"Selected page {idx + 1} of {len(self.pages)}")
 
-    def search_by_id(self):
-        page_id = self.search_id_var.get().strip()
-        if not page_id:
-            messagebox.showwarning("Missing id", "Enter an id to search.")
+    def search_by_title(self):
+        q = self.search_title_var.get().strip().lower()
+        if not q:
+            messagebox.showwarning("Missing title", "Enter a title to search.")
             return
 
-        idx = self.find_duplicate_id(page_id)
-        if idx is None:
-            messagebox.showinfo("Not found", f"No page found with id:\n{page_id}")
+        matches = []
+        for idx, it in enumerate(self.pages):
+            t = str(it.get("title", "")).strip().lower()
+            if q in t:
+                matches.append(idx)
+
+        if not matches:
+            messagebox.showinfo("Not found", f"No page found containing:\n{q}")
             return
 
-        self.goto_index(idx)
+        self.goto_index(matches[0])
+        self.set_status(f"Found {len(matches)} match(es)")
 
     def add_page(self):
         it = self.read_form()
@@ -283,7 +358,6 @@ class JsonGui(tk.Tk):
             return
 
         self.pages.insert(0, it)
-
         self.refresh_list()
         self.goto_index(0)
         self.set_status(f"Added at top, total {len(self.pages)} pages")
@@ -333,6 +407,7 @@ class JsonGui(tk.Tk):
             self.selected_index = idx
             self.write_form(self.pages[idx])
             self.set_status(f"Selected page {idx + 1} of {len(self.pages)}")
+
 
 if __name__ == "__main__":
     app = JsonGui()
