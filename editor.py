@@ -67,7 +67,6 @@ class JsonGui(tk.Tk):
         top.pack(fill="x")
 
         ttk.Button(top, text="Reload list", command=self.reload_list).pack(side="left")
-        ttk.Button(top, text="Save", command=self.save_json).pack(side="left", padx=8)
 
         ttk.Label(top, text="Current category").pack(side="left", padx=(16, 6))
         ttk.Label(top, textvariable=self.file_var).pack(side="left")
@@ -255,9 +254,9 @@ class JsonGui(tk.Tk):
             messagebox.showerror("Load failed", f"Could not load JSON:\n{e}")
             self.set_status("Load failed")
 
-    def save_json(self):
+    def save_json(self, silent: bool = True) -> bool:
         if not self.current_file:
-            return
+            return False
         try:
             if self.wrapper is None:
                 payload = self.pages
@@ -268,11 +267,16 @@ class JsonGui(tk.Tk):
             with open(self.current_file, "w", encoding="utf-8") as f:
                 json.dump(payload, f, ensure_ascii=False, indent=4)
 
-            self.set_status("Saved")
-            messagebox.showinfo("Saved", "JSON saved successfully.")
+            self.set_status("Auto saved")
+            return True
         except Exception as e:
-            messagebox.showerror("Save failed", f"Could not save JSON:\n{e}")
             self.set_status("Save failed")
+            if not silent:
+                messagebox.showerror("Save failed", f"Could not save JSON:\n{e}")
+            return False
+
+    def autosave(self) -> bool:
+        return self.save_json(silent=True)
 
     def refresh_list(self):
         self.listbox.delete(0, tk.END)
@@ -360,7 +364,11 @@ class JsonGui(tk.Tk):
         self.pages.insert(0, it)
         self.refresh_list()
         self.goto_index(0)
-        self.set_status(f"Added at top, total {len(self.pages)} pages")
+
+        if not self.autosave():
+            messagebox.showerror("Auto save failed", "Could not auto save after add.")
+
+        self.set_status(f"Added and auto saved, total {len(self.pages)} pages")
 
     def update_page(self):
         if self.selected_index is None:
@@ -378,9 +386,14 @@ class JsonGui(tk.Tk):
             return
 
         self.pages[self.selected_index] = it
+        keep = self.selected_index
         self.refresh_list()
-        self.goto_index(self.selected_index)
-        self.set_status("Updated")
+        self.goto_index(keep)
+
+        if not self.autosave():
+            messagebox.showerror("Auto save failed", "Could not auto save after update.")
+
+        self.set_status("Updated and auto saved")
 
     def delete_page(self):
         if self.selected_index is None:
@@ -396,7 +409,11 @@ class JsonGui(tk.Tk):
         self.selected_index = None
         self.refresh_list()
         self.new_template()
-        self.set_status(f"Deleted, total {len(self.pages)} pages")
+
+        if not self.autosave():
+            messagebox.showerror("Auto save failed", "Could not auto save after delete.")
+
+        self.set_status(f"Deleted and auto saved, total {len(self.pages)} pages")
 
     def pick_from_list(self):
         sel = self.listbox.curselection()

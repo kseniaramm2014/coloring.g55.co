@@ -305,7 +305,7 @@ class PromptGUI(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Coloring Prompt Generator")
-        self.geometry("1180x620")
+        self.state("zoomed")
 
         self.style = ttk.Style(self)
         self.base_bg = None
@@ -316,7 +316,7 @@ class PromptGUI(tk.Tk):
         self.category_var = tk.StringVar(
             value=self.categories[0] if self.categories else ""
         )
-        self.count_var = tk.IntVar(value=2)
+        self.count_var = tk.IntVar(value=4)
 
         self.data = (
             load_category_data(self.category_var.get())
