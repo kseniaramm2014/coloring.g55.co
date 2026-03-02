@@ -327,18 +327,6 @@ class PromptGUI(tk.Tk):
         top = ttk.Frame(self, padding=10)
         top.pack(fill="x")
 
-        ttk.Label(top, text="Category:").pack(side="left")
-
-        combo = ttk.Combobox(
-            top,
-            textvariable=self.category_var,
-            values=self.categories,
-            width=18,
-            state="readonly" if self.categories else "disabled",
-        )
-        combo.pack(side="left", padx=(6, 12))
-        combo.bind("<<ComboboxSelected>>", self.on_category_change)
-
         ttk.Label(top, text="Items:").pack(side="left")
 
         ttk.Spinbox(top, from_=1, to=200, textvariable=self.count_var, width=6).pack(
@@ -362,8 +350,44 @@ class PromptGUI(tk.Tk):
         container = ttk.Frame(self)
         container.pack(fill="both", expand=True, padx=10, pady=(0, 10))
 
-        self.canvas = tk.Canvas(container, highlightthickness=0)
-        scrollbar = ttk.Scrollbar(container, orient="vertical", command=self.canvas.yview)
+        sidebar = ttk.Frame(container, padding=(0, 0, 10, 0))
+        sidebar.pack(side="left", fill="y")
+
+        ttk.Label(sidebar, text="Categories").pack(anchor="w", pady=(0, 6))
+
+        list_wrap = ttk.Frame(sidebar)
+        list_wrap.pack(fill="y", expand=True)
+
+        self.cat_list = tk.Listbox(
+            list_wrap,
+            exportselection=False,
+            activestyle="none",
+        )
+        cat_scroll = ttk.Scrollbar(list_wrap, orient="vertical", command=self.cat_list.yview)
+        self.cat_list.configure(yscrollcommand=cat_scroll.set)
+
+        self.cat_list.pack(side="left", fill="y", expand=True)
+        cat_scroll.pack(side="right", fill="y")
+
+        for c in self.categories:
+            self.cat_list.insert("end", c)
+
+        self.cat_list.bind("<<ListboxSelect>>", self.on_category_select)
+
+        if self.categories:
+            try:
+                initial_idx = self.categories.index(self.category_var.get())
+            except Exception:
+                initial_idx = 0
+                self.category_var.set(self.categories[0])
+            self.cat_list.selection_set(initial_idx)
+            self.cat_list.see(initial_idx)
+
+        right = ttk.Frame(container)
+        right.pack(side="left", fill="both", expand=True)
+
+        self.canvas = tk.Canvas(right, highlightthickness=0)
+        scrollbar = ttk.Scrollbar(right, orient="vertical", command=self.canvas.yview)
 
         self.scrollable_frame = ttk.Frame(self.canvas)
         self.scrollable_frame.bind(
@@ -417,6 +441,19 @@ class PromptGUI(tk.Tk):
         self.counters_var.set(
             f"Characters: {c}  Actions: {a}  Environments: {e}  Total: {total_fmt}"
         )
+
+    def on_category_select(self, _event=None):
+        sel = self.cat_list.curselection()
+        if not sel:
+            return
+        idx = int(sel[0])
+        if idx < 0 or idx >= len(self.categories):
+            return
+        new_cat = self.categories[idx]
+        if new_cat == self.category_var.get():
+            return
+        self.category_var.set(new_cat)
+        self.on_category_change()
 
     def on_category_change(self, _event=None):
         self.data = load_category_data(self.category_var.get())
@@ -584,11 +621,4 @@ class PromptGUI(tk.Tk):
 
 if __name__ == "__main__":
     load_pools()
-
-    try:
-        from ctypes import windll
-        windll.shcore.SetProcessDpiAwareness(1)
-    except Exception:
-        pass
-
     PromptGUI().mainloop()
