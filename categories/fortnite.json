@@ -1,19 +1,24 @@
 {
-  "pages": [
-    {
-      "id": "free-printable-fortnite-characters-coloring-page",
-      "title": "Free Printable Fortnite Characters Coloring Page",
-      "description": "Free printable Fortnite coloring page featuring popular Fortnite characters, Battle Bus, supply drops, weapons, loot chest, llama, and iconic Fortnite elements in a detailed black and white line art style for kids to color"
-    },
-    {
-      "id": "wonkee-fortnite-coloring-page-free-printable",
-      "title": "Wonkee Fortnite Coloring Page Free Printable",
-      "description": "Free printable Wonkee Fortnite coloring page showing a smiling cartoon character wearing a top hat suit and gloves waving hello in a clean black and white coloring sheet style"
-    },
-    {
-      "id": "kingston-fortnite-character-coloring-page-free-printable",
-      "title": "Kingston Fortnite Character Coloring Page Free Printable",
-      "description": "Kingston Fortnite character coloring page showing a cool anthropomorphic lion wearing sunglasses a floral shirt shorts layered necklaces and a surfboard with clean black and white line art for free printable coloring"
-    }
-  ]
+    "pages": [
+        {
+            "id": "fortnite-island-champion-holding-a-lantern-near-a-small-fort-coloring-page",
+            "title": "Free Printable Fortnite Island Champion Holding a Lantern Near a Small Fort Coloring Page for Kids",
+            "description": "This printable coloring page for creative time features fortnite island champion holding a lantern near a small fort. Great for a screen free activity during afternoons and evenings. Large sections help kids color without tiny details. Supports positive creative habits through regular coloring time."
+        },
+        {
+            "id": "free-printable-fortnite-characters-coloring-page",
+            "title": "Free Printable Fortnite Characters Coloring Page",
+            "description": "Free printable Fortnite coloring page featuring popular Fortnite characters, Battle Bus, supply drops, weapons, loot chest, llama, and iconic Fortnite elements in a detailed black and white line art style for kids to color"
+        },
+        {
+            "id": "wonkee-fortnite-coloring-page-free-printable",
+            "title": "Wonkee Fortnite Coloring Page Free Printable",
+            "description": "Free printable Wonkee Fortnite coloring page showing a smiling cartoon character wearing a top hat suit and gloves waving hello in a clean black and white coloring sheet style"
+        },
+        {
+            "id": "kingston-fortnite-character-coloring-page-free-printable",
+            "title": "Kingston Fortnite Character Coloring Page Free Printable",
+            "description": "Kingston Fortnite character coloring page showing a cool anthropomorphic lion wearing sunglasses a floral shirt shorts layered necklaces and a surfboard with clean black and white line art for free printable coloring"
+        }
+    ]
 }
