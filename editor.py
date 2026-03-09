@@ -38,6 +38,32 @@ def normalize_loaded_json(loaded):
     raise ValueError('Unsupported JSON format. Expected {"pages": [...]} or a list.')
 
 
+def category_keyword_from_filename(name: str) -> str:
+    name = os.path.splitext((name or "").strip())[0]
+    return name.lower().replace("-", " ").strip()
+
+
+def count_title_keyword_matches(pages, keyword: str) -> int:
+    keyword = (keyword or "").strip().lower().replace("-", " ")
+    if not keyword:
+        return 0
+
+    count = 0
+    for it in pages:
+        title = str(it.get("title", "")).strip().lower()
+        if keyword in title:
+            count += 1
+    return count
+
+
+def title_matches_keyword(title: str, keyword: str) -> bool:
+    keyword = (keyword or "").strip().lower().replace("-", " ")
+    title = (title or "").strip().lower()
+    if not keyword:
+        return False
+    return keyword in title
+
+
 class JsonGui(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -155,6 +181,17 @@ class JsonGui(tk.Tk):
     def set_status(self, text: str):
         self.status_var.set(text)
 
+    def update_page_match_status(self, prefix: str = ""):
+        file_name = os.path.basename(self.current_file) if self.current_file else self.file_var.get()
+        keyword = category_keyword_from_filename(file_name)
+        total = len(self.pages)
+        matched = count_title_keyword_matches(self.pages, keyword)
+
+        if prefix:
+            self.set_status(f"{prefix}  Pages: {total} ({matched} matched)")
+        else:
+            self.set_status(f"Pages: {total} ({matched} matched)")
+
     def refresh_category_list(self):
         current_name = os.path.basename(self.current_file) if self.current_file else ""
         self.cat_listbox.delete(0, tk.END)
@@ -242,7 +279,7 @@ class JsonGui(tk.Tk):
             self.file_var.set(os.path.basename(self.current_file))
             self.refresh_list()
             self.new_template()
-            self.set_status(f"Loaded {len(self.pages)} pages")
+            self.update_page_match_status("Loaded")
         except Exception as e:
             self.pages = []
             self.wrapper = None
@@ -280,9 +317,16 @@ class JsonGui(tk.Tk):
 
     def refresh_list(self):
         self.listbox.delete(0, tk.END)
-        for it in self.pages:
+
+        file_name = os.path.basename(self.current_file) if self.current_file else self.file_var.get()
+        keyword = category_keyword_from_filename(file_name)
+
+        for idx, it in enumerate(self.pages):
             label = it.get("title") or it.get("id") or "(empty)"
             self.listbox.insert(tk.END, label)
+
+            if not title_matches_keyword(it.get("title", ""), keyword):
+                self.listbox.itemconfig(idx, bg="#ffe5e5", fg="#a00000")
 
     def on_title_change(self, event=None):
         if self.selected_index is not None:
@@ -329,7 +373,7 @@ class JsonGui(tk.Tk):
         self.listbox.see(idx)
         self.selected_index = idx
         self.write_form(self.pages[idx])
-        self.set_status(f"Selected page {idx + 1} of {len(self.pages)}")
+        self.update_page_match_status(f"Selected page {idx + 1} of {len(self.pages)}")
 
     def search_by_title(self):
         q = self.search_title_var.get().strip().lower()
@@ -368,7 +412,7 @@ class JsonGui(tk.Tk):
         if not self.autosave():
             messagebox.showerror("Auto save failed", "Could not auto save after add.")
 
-        self.set_status(f"Added and auto saved, total {len(self.pages)} pages")
+        self.update_page_match_status("Added and auto saved")
 
     def update_page(self):
         if self.selected_index is None:
@@ -393,7 +437,7 @@ class JsonGui(tk.Tk):
         if not self.autosave():
             messagebox.showerror("Auto save failed", "Could not auto save after update.")
 
-        self.set_status("Updated and auto saved")
+        self.update_page_match_status("Updated and auto saved")
 
     def delete_page(self):
         if self.selected_index is None:
@@ -413,7 +457,7 @@ class JsonGui(tk.Tk):
         if not self.autosave():
             messagebox.showerror("Auto save failed", "Could not auto save after delete.")
 
-        self.set_status(f"Deleted and auto saved, total {len(self.pages)} pages")
+        self.update_page_match_status("Deleted and auto saved")
 
     def pick_from_list(self):
         sel = self.listbox.curselection()
@@ -423,7 +467,7 @@ class JsonGui(tk.Tk):
         if idx < len(self.pages):
             self.selected_index = idx
             self.write_form(self.pages[idx])
-            self.set_status(f"Selected page {idx + 1} of {len(self.pages)}")
+            self.update_page_match_status(f"Selected page {idx + 1} of {len(self.pages)}")
 
 
 if __name__ == "__main__":
