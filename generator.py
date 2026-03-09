@@ -243,7 +243,7 @@ def calculate_total_combinations(data):
 
 
 def count_keyword_matches(lines, keyword):
-    keyword = (keyword or "").strip().lower()
+    keyword = (keyword or "").strip().lower().replace("-", " ")
     if not keyword:
         return 0
 
