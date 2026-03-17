@@ -77,22 +77,43 @@ if ($pageIndex !== -1) {
   }
 }
 
-$pool = [];
-foreach ($pages as $p) {
-  if (($p['id'] ?? '') === $id) continue;
-  $pool[] = $p;
-}
-
-$limit = min(12, count($pool));
 $similar = [];
 
-if ($limit > 0) {
-  $keys = array_rand($pool, $limit);
-  if (!is_array($keys)) $keys = [$keys];
+if ($pageIndex !== -1) {
+    $used = [$id => true];
+    $radius = 1;
+    $max = count($pages);
 
-  foreach ($keys as $k) {
-    $similar[] = $pool[$k];
-  }
+    while (count($similar) < 6 && (($pageIndex - $radius) >= 0 || ($pageIndex + $radius) < $max)) {
+        $left = $pageIndex - $radius;
+        $right = $pageIndex + $radius;
+
+        if ($left >= 0) {
+            $p = $pages[$left];
+            $pid = $p['id'] ?? '';
+            if ($pid !== '' && !isset($used[$pid])) {
+                $similar[] = $p;
+                $used[$pid] = true;
+                if (count($similar) >= 6) {
+                    break;
+                }
+            }
+        }
+
+        if ($right < $max) {
+            $p = $pages[$right];
+            $pid = $p['id'] ?? '';
+            if ($pid !== '' && !isset($used[$pid])) {
+                $similar[] = $p;
+                $used[$pid] = true;
+                if (count($similar) >= 6) {
+                    break;
+                }
+            }
+        }
+
+        $radius++;
+    }
 }
 
 $moreText = 'More ' . $cat['name'] . ' Coloring Pages';
