@@ -188,9 +188,9 @@ class JsonGui(tk.Tk):
         matched = count_title_keyword_matches(self.pages, keyword)
 
         if prefix:
-            self.set_status(f"{prefix}  Pages: {total} ({matched} matched)")
+            self.set_status(f"{prefix}  Pages: {matched}/{total}")
         else:
-            self.set_status(f"Pages: {total} ({matched} matched)")
+            self.set_status(f"Pages: {matched}/{total}")
 
     def refresh_category_list(self):
         current_name = os.path.basename(self.current_file) if self.current_file else ""
