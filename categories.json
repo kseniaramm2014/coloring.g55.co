@@ -1,109 +1,108 @@
 {
-"site": {
-"title": "Free Printable Coloring Pages",
-"description": "Free printable coloring pages offer a large collection of black and white line art featuring popular characters, animals, games, and themed illustrations. Each coloring page is designed for easy printing and coloring, making them perfect for kids, parents, and teachers looking for creative offline activities. All coloring pages are available as high quality printable designs with clear outlines, suitable for crayons, colored pencils, or markers. New coloring pages are added regularly, giving families and classrooms fresh printable artwork to enjoy."
-},
-
-"categories": [
-{
-"id": "minecraft",
-"name": "Minecraft",
-"description": "Minecraft coloring pages feature printable line art inspired by block-style characters, mobs, tools, and buildings from the Minecraft universe. Each coloring page shows a clear black and white illustration designed for easy printing and coloring. These free printable Minecraft coloring pages are perfect for kids and game fans who enjoy creative activities based on pixel-style worlds. All pages are provided as clean outline drawings, making them ideal for crayons, colored pencils, or markers at home or in the classroom."
-},
-{
-"id": "zootopia",
-"name": "Zootopia",
-"description": "Zootopia coloring pages feature printable animal character line art inspired by the animated city and characters from Zootopia. Each coloring page shows detailed black and white illustrations of anthropomorphic animals in expressive poses and city-themed scenes. These free printable Zootopia coloring pages are perfect for kids and fans who enjoy character-based coloring activities. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
-},
-{
-"id": "fnaf",
-"name": "FNAF",
-"description": "FNAF coloring pages feature printable line art of animatronic characters inspired by the Five Nights at Freddy’s game series. Each coloring page shows detailed black and white illustrations with mechanical details, expressive faces, and themed elements commonly seen in FNAF artwork. These free printable FNAF coloring pages are suitable for older kids and fans who enjoy detailed character drawings. All pages are provided as clean outline illustrations, making them easy to print and color at home or for creative fan activities."
-},
-{
-"id": "sonic",
-"name": "Sonic",
-"description": "Sonic coloring pages feature printable line art of fast-moving characters inspired by the Sonic universe. Each coloring page shows dynamic poses, expressive characters, and action-focused scenes designed as clear black and white illustrations. These free printable Sonic coloring pages are perfect for kids and fans who enjoy energetic character drawings and creative coloring activities. All pages are provided as clean outline art, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
-},
-{
-"id": "crash-bandicoot",
-"name": "Crash Bandicoot",
-"description": "Crash Bandicoot coloring pages feature printable line art inspired by the energetic characters and jungle-style worlds from the Crash Bandicoot series. Each coloring page shows expressive character poses, cartoon-style details, and playful action scenes presented as clean black and white illustrations. These free printable Crash Bandicoot coloring pages are perfect for kids and fans who enjoy colorful platform-style characters and creative coloring activities. All pages are designed as clear outline drawings, making them easy to print and color at home or in the classroom."
-},
-{
-"id": "pokemon",
-"name": "Pokemon",
-"description": "Pokémon coloring pages feature printable line art of popular Pokémon characters shown in friendly poses, battle stances, and playful scenes. Each coloring page presents clear black and white illustrations with simple outlines that are easy to print and color. These free printable Pokémon coloring pages are ideal for kids and fans who enjoy character-based coloring activities inspired by the Pokémon world. All pages are provided as clean outline drawings, making them suitable for crayons, colored pencils, or markers at home or in the classroom."
-},
-{
-"id": "mario",
-"name": "Mario",
-"description": "Mario coloring pages feature printable line art inspired by classic Mario characters, including heroes, villains, and platform-style scenes. Each coloring page shows clear black and white illustrations with expressive poses, simple shapes, and recognizable character details. These free printable Mario coloring pages are perfect for kids and fans who enjoy character-based coloring activities. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
-},
-{
-"id": "roblox",
-"name": "Roblox",
-"description": "Roblox coloring pages feature printable line art of block-style characters, avatars, and game-inspired scenes commonly found in Roblox experiences. Each coloring page shows clear black and white illustrations with simple geometric shapes and expressive character designs. These free printable Roblox coloring pages are perfect for kids and fans who enjoy creative coloring activities inspired by virtual worlds. All pages are provided as clean outline drawings, making them easy to print and color at home or in the classroom."
-},
-{
-"id": "fortnite",
-"name": "Fortnite",
-"description": "Fortnite coloring pages feature printable line art inspired by popular Fortnite characters, outfits, and action poses. Each coloring page shows clear black and white illustrations with dynamic stances, detailed costumes, and game-style elements. These free printable Fortnite coloring pages are perfect for kids and fans who enjoy character-based coloring activities inspired by battle royale games. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
-},
-{
-"id": "spongebob",
-"name": "SpongeBob",
-"description": "SpongeBob coloring pages feature printable line art inspired by SpongeBob SquarePants and other characters from the underwater world of Bikini Bottom. Each coloring page shows cheerful expressions, cartoon-style details, and playful scenes presented as clear black and white illustrations. These free printable SpongeBob coloring pages are perfect for kids and fans who enjoy fun character-based coloring activities. All pages are provided as clean outline drawings, making them easy to print and color at home or in the classroom."
-},
-{
-"id": "spiderman",
-"name": "Spiderman",
-"description": "Spiderman coloring pages feature printable line art inspired by the superhero Spiderman, showing action poses, web swinging scenes, and city backgrounds. Each coloring page presents clear black and white illustrations with dynamic movement, strong outlines, and recognizable costume details. These free printable Spiderman coloring pages are perfect for kids and fans who enjoy superhero themed coloring activities. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
-},
-{
-"id": "animals",
-"name": "Animals",
-"description": "Animals coloring pages feature a wide collection of printable animal line art, including pets, wild animals, farm animals, and cute cartoon creatures. Each coloring page shows a clear animal illustration designed for easy printing and coloring. These free printable animal coloring pages are ideal for kids, parents, and teachers looking for simple, high quality animal drawings to color at home or in the classroom. All pages are provided as clean black and white line art, making them perfect for crayons, colored pencils, or markers."
-},
-{
-"id": "stitch",
-"name": "Stitch",
-"description": "Stitch coloring pages feature printable line art inspired by the playful character Stitch, showing expressive poses, cute facial expressions, and fun scenes. Each coloring page presents clear black and white illustrations with rounded shapes and friendly cartoon details. These free printable Stitch coloring pages are perfect for kids and fans who enjoy cute character based coloring activities. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
-},
-{
-"id": "frozen",
-"name": "Frozen",
-"description": "Frozen coloring pages feature printable line art inspired by characters and scenes from the Frozen universe, including winter themed settings and expressive character poses. Each coloring page shows clear black and white illustrations with flowing outlines, detailed costumes, and icy themed elements. These free printable Frozen coloring pages are perfect for kids and fans who enjoy magical character based coloring activities. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
-},
-{
-"id": "bluey",
-"name": "Bluey",
-"description": "Bluey Coloring Pages offer a fun and creative way for kids and fans to enjoy their favorite moments from the hit animated series Bluey. This collection features high quality printable coloring pages with Bluey, Bingo, Bandit, Chilli, and friends in playful family scenes, outdoor adventures, and everyday activities that children love. All coloring pages are free to print and designed with clean line art that is perfect for crayons, colored pencils, or markers. Bluey coloring pages help support creativity, fine motor skills, and imagination while providing screen free entertainment inspired by a wholesome and educational kids show. Whether for home, school, or quiet time activities, these printable Bluey coloring pages are ideal for preschoolers and young children who enjoy coloring their favorite cartoon characters."
-},
-{
-"id": "dinosaur",
-"name": "Dinosaur",
-"description": "Discover free printable dinosaur coloring pages featuring T Rex, Triceratops, Velociraptor, and many other prehistoric creatures in fun and detailed scenes. These dinosaur coloring pages offer clean line art perfect for kids and dinosaur fans to print and color at home or in the classroom, helping develop creativity while exploring the exciting world of dinosaurs through engaging and easy to color illustrations suitable for all ages."
-},
-{
-"id": "vehicles",
-"name": "Vehicles",
-"description": "Vehicles coloring pages offer a fun and creative collection of free printable illustrations featuring cars, trucks, buses, motorcycles, construction machines, airplanes, trains, boats, and many other popular vehicles. These coloring pages present clean outline drawings suitable for kids of all ages, helping develop creativity, fine motor skills, and interest in transportation while providing an enjoyable activity at home or in the classroom. Each printable vehicle coloring page is designed for easy printing and coloring, making them perfect for young vehicle fans who love exploring different types of transportation through art and imagination."
-},
-{
-"id": "princess",
-"name": "Princess",
-"description": "Discover a magical collection of princess coloring pages designed for kids who love fairy tales, castles, and royal adventures. These free printable coloring pages feature beautiful princess characters in enchanting scenes, perfect for creative play at home or in the classroom. Simple line art and large coloring areas make the pages easy and enjoyable for all skill levels. Coloring princess scenes helps children relax, develop creativity, and build fine motor skills while having fun with their favorite royal stories."
-},
-{
-"id": "unicorn",
-"name": "Unicorn",
-"description": "Unicorn Coloring Pages feature a magical collection of free printable sheets with cute unicorns, flying unicorns, baby unicorns, and fantasy scenes filled with rainbows, castles, and enchanted landscapes. Designed with clean outlines and large coloring areas, these pages are perfect for kids at home or in school, helping develop creativity and imagination while providing fun and relaxing coloring activities, with new unicorn coloring pages added regularly for endless creative adventures."
-},
-{
-"id": "dragon",
-"name": "Dragon",
-"description": "Dragon Coloring Pages offer an exciting collection of free printable coloring sheets featuring cute dragons, baby dragons, flying dragons, and magical fantasy scenes perfect for kids who love adventure and mythical creatures. These coloring pages include friendly cartoon dragons exploring castles, caves, mountains, and enchanted lands, all designed with clean outlines and large coloring areas ideal for children at home or in school. Perfect for creative activities, classroom use, and relaxing fun, this collection helps kids develop imagination and creativity while enjoying printable dragon coloring pages, with new magical dragon scenes added regularly for endless coloring adventures."
-}
-]
+    "site": {
+        "title": "Free Printable Coloring Pages",
+        "description": "Free printable coloring pages offer a large collection of black and white line art featuring popular characters, animals, games, and themed illustrations. Each coloring page is designed for easy printing and coloring, making them perfect for kids, parents, and teachers looking for creative offline activities. All coloring pages are available as high quality printable designs with clear outlines, suitable for crayons, colored pencils, or markers. New coloring pages are added regularly, giving families and classrooms fresh printable artwork to enjoy."
+    },
+    "categories": [
+        {
+            "id": "minecraft",
+            "name": "Minecraft",
+            "description": "Minecraft coloring pages feature printable line art inspired by block-style characters, mobs, tools, and buildings from the Minecraft universe. Each coloring page shows a clear black and white illustration designed for easy printing and coloring. These free printable Minecraft coloring pages are perfect for kids and game fans who enjoy creative activities based on pixel-style worlds. All pages are provided as clean outline drawings, making them ideal for crayons, colored pencils, or markers at home or in the classroom."
+        },
+        {
+            "id": "zootopia",
+            "name": "Zootopia",
+            "description": "Zootopia coloring pages feature printable animal character line art inspired by the animated city and characters from Zootopia. Each coloring page shows detailed black and white illustrations of anthropomorphic animals in expressive poses and city-themed scenes. These free printable Zootopia coloring pages are perfect for kids and fans who enjoy character-based coloring activities. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
+        },
+        {
+            "id": "fnaf",
+            "name": "FNAF",
+            "description": "FNAF coloring pages feature printable line art of animatronic characters inspired by the Five Nights at Freddy’s game series. Each coloring page shows detailed black and white illustrations with mechanical details, expressive faces, and themed elements commonly seen in FNAF artwork. These free printable FNAF coloring pages are suitable for older kids and fans who enjoy detailed character drawings. All pages are provided as clean outline illustrations, making them easy to print and color at home or for creative fan activities."
+        },
+        {
+            "id": "sonic",
+            "name": "Sonic",
+            "description": "Sonic coloring pages feature printable line art of fast-moving characters inspired by the Sonic universe. Each coloring page shows dynamic poses, expressive characters, and action-focused scenes designed as clear black and white illustrations. These free printable Sonic coloring pages are perfect for kids and fans who enjoy energetic character drawings and creative coloring activities. All pages are provided as clean outline art, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
+        },
+        {
+            "id": "crash-bandicoot",
+            "name": "Crash Bandicoot",
+            "description": "Crash Bandicoot coloring pages feature printable line art inspired by the energetic characters and jungle-style worlds from the Crash Bandicoot series. Each coloring page shows expressive character poses, cartoon-style details, and playful action scenes presented as clean black and white illustrations. These free printable Crash Bandicoot coloring pages are perfect for kids and fans who enjoy colorful platform-style characters and creative coloring activities. All pages are designed as clear outline drawings, making them easy to print and color at home or in the classroom."
+        },
+        {
+            "id": "pokemon",
+            "name": "Pokemon",
+            "description": "Pokémon coloring pages feature printable line art of popular Pokémon characters shown in friendly poses, battle stances, and playful scenes. Each coloring page presents clear black and white illustrations with simple outlines that are easy to print and color. These free printable Pokémon coloring pages are ideal for kids and fans who enjoy character-based coloring activities inspired by the Pokémon world. All pages are provided as clean outline drawings, making them suitable for crayons, colored pencils, or markers at home or in the classroom."
+        },
+        {
+            "id": "mario",
+            "name": "Mario",
+            "description": "Mario coloring pages feature printable line art inspired by classic Mario characters, including heroes, villains, and platform-style scenes. Each coloring page shows clear black and white illustrations with expressive poses, simple shapes, and recognizable character details. These free printable Mario coloring pages are perfect for kids and fans who enjoy character-based coloring activities. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
+        },
+        {
+            "id": "roblox",
+            "name": "Roblox",
+            "description": "Roblox coloring pages feature printable line art of block-style characters, avatars, and game-inspired scenes commonly found in Roblox experiences. Each coloring page shows clear black and white illustrations with simple geometric shapes and expressive character designs. These free printable Roblox coloring pages are perfect for kids and fans who enjoy creative coloring activities inspired by virtual worlds. All pages are provided as clean outline drawings, making them easy to print and color at home or in the classroom."
+        },
+        {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "description": "Fortnite coloring pages feature printable line art inspired by popular Fortnite characters, outfits, and action poses. Each coloring page shows clear black and white illustrations with dynamic stances, detailed costumes, and game-style elements. These free printable Fortnite coloring pages are perfect for kids and fans who enjoy character-based coloring activities inspired by battle royale games. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
+        },
+        {
+            "id": "spongebob",
+            "name": "SpongeBob",
+            "description": "SpongeBob coloring pages feature printable line art inspired by SpongeBob SquarePants and other characters from the underwater world of Bikini Bottom. Each coloring page shows cheerful expressions, cartoon-style details, and playful scenes presented as clear black and white illustrations. These free printable SpongeBob coloring pages are perfect for kids and fans who enjoy fun character-based coloring activities. All pages are provided as clean outline drawings, making them easy to print and color at home or in the classroom."
+        },
+        {
+            "id": "spiderman",
+            "name": "Spiderman",
+            "description": "Spiderman coloring pages feature printable line art inspired by the superhero Spiderman, showing action poses, web swinging scenes, and city backgrounds. Each coloring page presents clear black and white illustrations with dynamic movement, strong outlines, and recognizable costume details. These free printable Spiderman coloring pages are perfect for kids and fans who enjoy superhero themed coloring activities. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
+        },
+        {
+            "id": "animals",
+            "name": "Animals",
+            "description": "Animals coloring pages feature a wide collection of printable animal line art, including pets, wild animals, farm animals, and cute cartoon creatures. Each coloring page shows a clear animal illustration designed for easy printing and coloring. These free printable animal coloring pages are ideal for kids, parents, and teachers looking for simple, high quality animal drawings to color at home or in the classroom. All pages are provided as clean black and white line art, making them perfect for crayons, colored pencils, or markers."
+        },
+        {
+            "id": "stitch",
+            "name": "Stitch",
+            "description": "Stitch coloring pages feature printable line art inspired by the playful character Stitch, showing expressive poses, cute facial expressions, and fun scenes. Each coloring page presents clear black and white illustrations with rounded shapes and friendly cartoon details. These free printable Stitch coloring pages are perfect for kids and fans who enjoy cute character based coloring activities. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
+        },
+        {
+            "id": "frozen",
+            "name": "Frozen",
+            "description": "Frozen coloring pages feature printable line art inspired by characters and scenes from the Frozen universe, including winter themed settings and expressive character poses. Each coloring page shows clear black and white illustrations with flowing outlines, detailed costumes, and icy themed elements. These free printable Frozen coloring pages are perfect for kids and fans who enjoy magical character based coloring activities. All pages are provided as clean outline drawings, making them easy to print and color using crayons, colored pencils, or markers at home or in the classroom."
+        },
+        {
+            "id": "bluey",
+            "name": "Bluey",
+            "description": "Bluey Coloring Pages offer a fun and creative way for kids and fans to enjoy their favorite moments from the hit animated series Bluey. This collection features high quality printable coloring pages with Bluey, Bingo, Bandit, Chilli, and friends in playful family scenes, outdoor adventures, and everyday activities that children love. All coloring pages are free to print and designed with clean line art that is perfect for crayons, colored pencils, or markers. Bluey coloring pages help support creativity, fine motor skills, and imagination while providing screen free entertainment inspired by a wholesome and educational kids show. Whether for home, school, or quiet time activities, these printable Bluey coloring pages are ideal for preschoolers and young children who enjoy coloring their favorite cartoon characters."
+        },
+        {
+            "id": "dinosaur",
+            "name": "Dinosaur",
+            "description": "Discover free printable dinosaur coloring pages featuring T Rex, Triceratops, Velociraptor, and many other prehistoric creatures in fun and detailed scenes. These dinosaur coloring pages offer clean line art perfect for kids and dinosaur fans to print and color at home or in the classroom, helping develop creativity while exploring the exciting world of dinosaurs through engaging and easy to color illustrations suitable for all ages."
+        },
+        {
+            "id": "vehicles",
+            "name": "Vehicles",
+            "description": "Vehicles coloring pages offer a fun and creative collection of free printable illustrations featuring cars, trucks, buses, motorcycles, construction machines, airplanes, trains, boats, and many other popular vehicles. These coloring pages present clean outline drawings suitable for kids of all ages, helping develop creativity, fine motor skills, and interest in transportation while providing an enjoyable activity at home or in the classroom. Each printable vehicle coloring page is designed for easy printing and coloring, making them perfect for young vehicle fans who love exploring different types of transportation through art and imagination."
+        },
+        {
+            "id": "princess",
+            "name": "Princess",
+            "description": "Discover a magical collection of princess coloring pages designed for kids who love fairy tales, castles, and royal adventures. These free printable coloring pages feature beautiful princess characters in enchanting scenes, perfect for creative play at home or in the classroom. Simple line art and large coloring areas make the pages easy and enjoyable for all skill levels. Coloring princess scenes helps children relax, develop creativity, and build fine motor skills while having fun with their favorite royal stories."
+        },
+        {
+            "id": "unicorn",
+            "name": "Unicorn",
+            "description": "Unicorn Coloring Pages feature a magical collection of free printable sheets with cute unicorns, flying unicorns, baby unicorns, and fantasy scenes filled with rainbows, castles, and enchanted landscapes. Designed with clean outlines and large coloring areas, these pages are perfect for kids at home or in school, helping develop creativity and imagination while providing fun and relaxing coloring activities, with new unicorn coloring pages added regularly for endless creative adventures."
+        },
+        {
+            "id": "dragon",
+            "name": "Dragon",
+            "description": "Dragon Coloring Pages offer an exciting collection of free printable coloring sheets featuring cute dragons, baby dragons, flying dragons, and magical fantasy scenes perfect for kids who love adventure and mythical creatures. These coloring pages include friendly cartoon dragons exploring castles, caves, mountains, and enchanted lands, all designed with clean outlines and large coloring areas ideal for children at home or in school. Perfect for creative activities, classroom use, and relaxing fun, this collection helps kids develop imagination and creativity while enjoying printable dragon coloring pages, with new magical dragon scenes added regularly for endless coloring adventures."
+        }
+    ]
 }
