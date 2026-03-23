@@ -61,6 +61,7 @@ p {
     white-space: pre-line;
     text-align: justify;
     margin: 0;
+    text-shadow: 1px 1px #eee;
 }
 .logo {
     width: 180px;
