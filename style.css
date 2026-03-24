@@ -20,15 +20,21 @@ article {
     padding-bottom: 25px;
 }
 footer {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #eee;
     box-shadow: 0 100vmax 0 100vmax #eee;
 }
 footer a {
     color: #333 !important;
+}
+footer div {
+    gap: 30px;
+    display: flex;
+    margin: 0 30px;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+footer > div:nth-child(1) {
+    border-bottom: 1px solid #ccc;
 }
 button {
     font-family: inherit;
