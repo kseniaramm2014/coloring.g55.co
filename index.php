@@ -13,7 +13,7 @@
 <body>
 <?php include 'header.php'; ?>
 <main>
-<section>
+<article>
 <div class="title">
 <h1><?php echo h($h1); ?></h1>
 <p><?php echo $desc; ?></p>
@@ -26,7 +26,7 @@
 </a>
 <?php endforeach; ?>
 </div>
-</section>
+</article>
 <?php if (!empty($pager) && $pager['total_pages'] > 1): ?>
 <nav class="pagination">
 <?php if ($pager['has_prev']): ?>
