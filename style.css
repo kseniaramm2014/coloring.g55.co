@@ -258,7 +258,7 @@ p {
 }
 
 @media (max-width: 768px) {
-article {
+.content {
     flex-direction: column-reverse;
 }
 h1, h2 {
