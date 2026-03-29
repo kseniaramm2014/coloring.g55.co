@@ -32,6 +32,8 @@ if ($cat === null) {
   exit;
 }
 
+$currentCluster = find_cluster_for_category($grouped, $cid);
+
 list($_, $pages) = load_category_pages($cid);
 
 $page = null;
