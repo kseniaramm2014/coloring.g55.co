@@ -5,6 +5,7 @@ require_once 'common.php';
 $index = load_site_index();
 $site = $index['site'];
 $categories = get_categories_sorted($index);
+$grouped = get_categories_clustered($index);
 
 $catMap = [];
 foreach ($categories as $c) {
