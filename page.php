@@ -25,6 +25,14 @@
 </section>
 <img class="page" onclick="this.requestFullscreen();" src="<?php echo h($imageSrc); ?>" alt="<?php echo h(makeImageAlt($page['id'])); ?>">
 </article>
+<nav class="pagination">
+<?php if ($prevUrl): ?>
+<a class="tag" href="<?php echo h($prevUrl) ?>">Prev Page</a>
+<?php endif; ?>
+<?php if ($nextUrl): ?>
+<a class="tag" href="<?php echo h($nextUrl) ?>">Next Page</a>
+<?php endif; ?>
+</nav>
 <?php if (!empty($currentCluster)): ?>
 <nav class="cluster">
 <h2>Explore <?php echo h($currentCluster[0]['name']) ?> Coloring Pages</h2>
@@ -35,14 +43,6 @@
 </ul>
 </nav>
 <?php endif; ?>
-<nav class="pagination">
-<?php if ($prevUrl): ?>
-<a class="tag" href="<?php echo h($prevUrl) ?>">Prev Page</a>
-<?php endif; ?>
-<?php if ($nextUrl): ?>
-<a class="tag" href="<?php echo h($nextUrl) ?>">Next Page</a>
-<?php endif; ?>
-</nav>
 <aside>
 <h2><?php echo h($moreTitle); ?></h2>
 <div class="grid">
