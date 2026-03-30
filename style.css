@@ -148,7 +148,8 @@ p {
     height: calc(100% - 40px);
     padding: 20px;
     position: absolute;
-    background-image: linear-gradient(to top, transparent, #333);
+    text-shadow: 1px 1px #222;
+    background-image: linear-gradient(to top, transparent, #222);
     opacity: 0;
 }
 .thumbnail span:hover {
