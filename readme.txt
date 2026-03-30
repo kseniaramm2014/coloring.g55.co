@@ -147,7 +147,7 @@ Do not place links inside the Key Features section
 PARAGRAPH FLOW MODEL
 
 Sentence 1
-Coloring action + full category name + printable intent
+Full category name must start the sentence, followed by a coloring activity phrase and printable intent.
 
 Sentence 2
 Subject expansion + environment diversity
