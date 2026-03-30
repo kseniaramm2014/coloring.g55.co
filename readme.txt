@@ -1,82 +1,54 @@
 MASTER COLORING CATEGORY DESCRIPTION RULE
-EDITORIAL PRODUCTION VERSION V6
+EDITORIAL PRODUCTION VERSION V7
 SIMPLIFIED SEO + GOOGLE IMAGES STRUCTURE + CLUSTER LINKING
 
 GOAL
 Write clear editorial category descriptions for Coloring.G55.CO that help search engines understand the printable subject, scene variety, complexity range, and educational usage.
-
 Descriptions should support Google Images indexing, printable activity search intent, and internal cluster authority through Tier 1 linking.
-
+The description consists of a single editorial paragraph.
 
 INPUT VARIABLES
-
 Category name: {CATEGORY_NAME}
 Category type: {CHARACTER | THEME | EDUCATIONAL | ANIMAL | VEHICLE | SEASONAL | TREND | OBJECT | FANTASY}
-
 Audience
 kids, parents, teachers, casual users
-
 Tone
 clear, editorial, structured, activity focused
 
-
 OUTPUT STRUCTURE
+Single Intro Paragraph Only
 
-1 Intro paragraph
-2 Key Features section
-3 Bullet list
-
-
-INTRO PARAGRAPH RULES
-
+PARAGRAPH RULES
 Write exactly one paragraph.
-
 Length
 70 to 110 words.
-
-Paragraph should contain 4 to 5 sentences.
-
+Paragraph must contain 4 to 5 sentences.
 The first sentence must start with the full category name.
-
 The first sentence must describe the coloring activity and include printable intent.
 
-Example printable signals
-
+PRINTABLE INTENT SIGNALS
+Allowed phrases include
 printable coloring pages
 coloring sheets to print
 free printable coloring sheets
 simple coloring pages to print
-
-Do not repeat printable phrases more than once in the paragraph.
-
+Printable phrase must appear once only.
 
 SUBJECT VARIETY RULE
-
 Paragraph must include at least five visual subjects.
-
 Subjects must be written in comma lists and the final item must include "and".
-
 Example
-
 cats, dogs, lions, elephants, and horses
 cars, trucks, buses, tractors, and motorcycles
 princesses, dragons, castles, fairies, and unicorns
-
-Subject list should not repeat the same entity family.
-
+Subject list must not repeat the same entity family.
 Bad example
-
 dogs, puppies, small dogs, big dogs, and dogs running
-
 Good example
-
 dogs, cats, horses, rabbits, and elephants
 
-
 SCENE VARIETY RULE
-
 Include environments or settings such as
-
 forests
 villages
 oceans
@@ -85,173 +57,88 @@ cities
 castles
 space
 classrooms
-
-Include at least two different environment types when possible.
-
+Include at least two environment types when possible.
 
 COMPLEXITY RULE
-
-Include both
-
+Paragraph must include both
 simple outline drawings for younger children
+and
 detailed pages for older kids
 
-
 VISUAL CLARITY SIGNAL
-
 Include one phrase describing printable line art.
-
 Examples
-
 simple outline drawings
 bold line art pages
 clean black and white designs
 easy coloring outlines
 
-
 AGE OR USAGE CONTEXT
-
 Mention at least one usage context.
-
 Examples
-
 classroom activities
 home art time
 creative practice
 learning activities
 
-
 WRITING STYLE RULES
-
 Avoid marketing language.
 Avoid storytelling tone.
 Avoid filler phrases.
 Use short clear sentences.
-
 Maximum sentence length
 28 words.
-
 Avoid repeating identical sentence openings.
-
 Do not start multiple sentences with
-
 These pages
 These sheets
 These drawings
-
 Use varied sentence openings to maintain natural editorial rhythm.
 
-
 SOFT ADJECTIVE CONTROL
-
 Allowed soft adjectives
-
 simple
 cute
 friendly
 clear
-
 Maximum two per paragraph.
 
-
 INTERNAL LINKING RULE
-
 Tier 0 categories must include contextual links to Tier 1 categories.
 
-Tier 0 linking requirements
-
-Include 3 to 6 Tier 1 category links inside the intro paragraph.
-
-Links should appear inside the subject expansion portion of the paragraph,
-preferably within the entity list sentence.
-
+TIER 0 LINKING REQUIREMENTS
+Include 3 to 6 Tier 1 category links inside the paragraph.
+Links should appear inside the subject expansion portion of the paragraph.
+Prefer placing links inside the subject list sentence.
 Anchor text must use the subject name only.
-
 Example
-
 <a href='/?c=minecraft-steve'>Steve</a>
 <a href='/?c=minecraft-alex'>Alex</a>
 <a href='/?c=minecraft-creeper'>creeper</a>
-
 If fewer Tier 1 categories exist, include all available Tier 1 links.
-
 Do not repeat the same link.
-Do not place links inside the Key Features section.
 Do not link the Tier 0 category to itself.
 
-
-Tier 1 linking requirements
-
-Tier 1 category descriptions must include exactly one contextual link
-to the Tier 0 category.
-
+TIER 1 LINKING REQUIREMENTS
+Tier 1 category descriptions must include exactly one contextual link to the Tier 0 category.
 Anchor text must match the exact Tier 0 category name.
-
 Example
-
 <a href='/?c=minecraft'>Minecraft Coloring Pages</a>
 
-
 PARAGRAPH FLOW MODEL
-
 Sentence 1
 Category name + coloring activity + printable intent.
-
 Sentence 2
 Subject expansion with Tier 1 internal links.
-
 Sentence 3
 Scene or environment diversity.
-
 Sentence 4
 Complexity variation + visual clarity signal.
-
 Sentence 5
 Educational or usage context.
 
-
-KEY FEATURES SECTION
-
-Title must be exactly
-
-Key Features
-
-Include exactly five bullets.
-
-
-BULLET RULES
-
-3 to 6 words each
-noun phrases only
-no full sentences
-no verbs at the start
-do not repeat the category name
-avoid generic activity wording
-
-Each bullet should represent a different semantic feature group.
-
-Examples of semantic groups
-
-subject variation
-scene variation
-complexity level
-printable format
-educational or age usage
-
-
-BULLET EXAMPLES
-
-Cartoon animal printable outlines
-Forest wildlife scene drawings
-Simple toddler friendly line art
-Detailed printable activity sheets
-Classroom art activity pages
-
-
 QUALITY CHECK
-
 Ensure
-
 Category name appears in first sentence
 Printable intent appears once
 Five subject variations included
@@ -262,7 +149,6 @@ Educational or usage context included
 Paragraph length within limits
 No sentence exceeds 28 words
 Grammar natural when read aloud
-Bullets represent clear feature groups
 Tier 1 internal links included
 Tone editorial and natural
 No redundant repetition
