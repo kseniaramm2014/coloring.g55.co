@@ -5,6 +5,41 @@
     },
     "categories": [
         {
+            "id": "animals",
+            "name": "Animals",
+            "description": "Animals Coloring Pages provide printable coloring pages that introduce children to wildlife and familiar creatures through coloring sheets to print designed for creative exploration and animal recognition. Popular subjects include <a href='/?c=cat'>cats</a>, <a href='/?c=dog'>dogs</a>, <a href='/?c=horse'>horses</a>, <a href='/?c=lion'>lions</a>, <a href='/?c=elephant'>elephants</a>, and <a href='/?c=bunny'>bunnies</a>. Scenes appear across forests, farms, oceans, mountains, and grassy plains where animals live and move through natural habitats. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity supports classroom learning, home art time, and creative practice while helping children recognize animals and explore nature themed subjects."
+        },
+        {
+            "id": "bunny",
+            "name": "Bunny",
+            "description": "Bunny Coloring Pages provide printable coloring pages where children color small woodland animals using coloring sheets to print designed for relaxing creative play and animal recognition. Subjects include bunnies, rabbits, baby rabbits, fluffy rabbits, and hopping rabbits shown in playful animal poses. Scenes appear across gardens, meadows, forests, flower fields, and village yards where rabbits explore and hide among plants. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom activities, home art time, and creative learning."
+        },
+        {
+            "id": "elephant",
+            "name": "Elephant",
+            "description": "Elephant Coloring Pages feature printable coloring pages that allow children to color large wildlife animals through coloring sheets to print designed for educational art activities. Subjects include elephants, baby elephants, African elephants, Asian elephants, and elephant family groups shown in natural wildlife poses. Scenes appear across jungles, rivers, savannas, forests, and watering holes where elephants walk, play, and gather. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom learning, home art time, and nature themed creative practice."
+        },
+        {
+            "id": "lion",
+            "name": "Lion",
+            "description": "Lion Coloring Pages feature printable coloring pages that introduce children to powerful wild animals through coloring sheets to print focused on safari wildlife exploration. Subjects include lions, lion cubs, male lions with manes, resting lions, and playful cub groups shown in natural animal scenes. Scenes appear across savannas, grassy plains, rocky hills, open valleys, and warm sunset landscapes where lions live in pride groups. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom wildlife lessons, home art time, and creative exploration."
+        },
+        {
+            "id": "horse",
+            "name": "Horse",
+            "description": "Horse Coloring Pages provide printable coloring pages where children explore graceful animals through coloring sheets to print designed for relaxing drawing practice and animal recognition. Subjects include horses, ponies, foals, riding horses, and farm horses shown in natural animal poses. Scenes appear across farms, grassy fields, countryside paths, villages, and open meadows where horses run and graze. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity links with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom learning, home art routines, and creative practice."
+        },
+        {
+            "id": "dog",
+            "name": "Dog",
+            "description": "Dog Coloring Pages feature printable coloring pages that introduce children to friendly pets through coloring sheets to print designed for creative animal themed activity. Subjects include puppies, dogs, shepherd dogs, fluffy dogs, and playful dogs shown in energetic poses and familiar outdoor moments. Scenes appear across parks, gardens, villages, farms, and open fields where dogs run, play, and explore their surroundings. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. This activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom activities, home art time, and creative practice."
+        },
+        {
+            "id": "cat",
+            "name": "Cat",
+            "description": "Cat Coloring Pages feature printable coloring pages that let children color playful pets and familiar household animals using coloring sheets to print designed for relaxing creative activity. Subjects include kittens, cats, tabby cats, fluffy cats, and sleepy cats shown in comfortable home environments and playful settings. Scenes appear across living rooms, gardens, cozy houses, villages, and sunny parks where cats explore and rest. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. This activity connects naturally with <a href='/?c=animals'>Animals Coloring Pages</a> and supports home art time, classroom practice, and early observation learning."
+        },
+        {
             "id": "fnaf",
             "name": "FNAF",
             "description": "FNAF Coloring Pages offer printable coloring pages featuring animatronic characters from the Five Nights at Freddy’s universe designed for creative coloring activity and character recognition. Subjects include <a href='/?c=fnaf-freddy-fazbear'>Freddy Fazbear</a>, <a href='/?c=fnaf-bonnie'>Bonnie</a>, <a href='/?c=fnaf-chica'>Chica</a>, <a href='/?c=fnaf-foxy'>Foxy</a>, and security guards shown as recognizable figures from the game series. Scenes place these characters inside arcades, stages, pizzerias, security rooms, and indoor entertainment areas. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages that remain easy to color. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
@@ -108,11 +143,6 @@
             "id": "spiderman",
             "name": "Spiderman",
             "description": "Color Spiderman printable coloring pages featuring characters such as Spider Man, Miles Morales, Gwen Stacy, villains, and figures including city heroes, masked allies, and comic creatures shown in skyscrapers, rooftops, streets, and action scenes. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art activities and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline play.\n\nKey Features\n\n• Superhero character printable outlines\n• City rooftop scene drawings\n• Hero and villain variation sheets\n• Simple toddler friendly line art\n• Detailed comic action illustration pages\n• Bold black outline printable designs\n• Educational creative activity worksheets"
-        },
-        {
-            "id": "animals",
-            "name": "Animals",
-            "description": "Color animal printable coloring pages featuring creatures such as dogs, cats, lions, elephants, horses, and wildlife including tigers, bears, rabbits, monkeys, giraffes, and dolphins shown in forests, jungles, farms, oceans, savannas, and backyard scenes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom learning and home art routines while coloring sheets to print encourage species recognition, visual focus, and early creative skill development through structured offline activity.\n\nKey Features\n\n• Domestic and wildlife printable outlines\n• Habitat scene illustration sheets\n• Farm and jungle variation pages\n• Simple toddler friendly line art\n• Detailed nature illustration pages\n• Bold black outline printable designs\n• Educational animal learning worksheets"
         },
         {
             "id": "stitch",
