@@ -79,6 +79,19 @@ def title_matches_keyword(title: str, keyword: str) -> bool:
     return keyword in title
 
 
+def category_description_has_link(description: str) -> bool:
+    description = str(description or "").lower()
+    return "<a href=" in description
+
+
+def count_categories_with_links(items) -> int:
+    count = 0
+    for it in items:
+        if category_description_has_link(it.get("description", "")):
+            count += 1
+    return count
+
+
 class JsonGui(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -219,7 +232,8 @@ class JsonGui(tk.Tk):
         total = len(self.items)
 
         if self.is_root_categories_mode():
-            text = f"Categories: {total}"
+            linked = count_categories_with_links(self.items)
+            text = f"Descriptions: {linked}/{total}"
         else:
             file_name = os.path.basename(self.current_file) if self.current_file else self.file_var.get()
             keyword = category_keyword_from_filename(file_name)
@@ -387,7 +401,10 @@ class JsonGui(tk.Tk):
             label = label or it.get("id") or "(empty)"
             self.listbox.insert(tk.END, label)
 
-            if not self.is_root_categories_mode():
+            if self.is_root_categories_mode():
+                if not category_description_has_link(it.get("description", "")):
+                    self.listbox.itemconfig(idx, bg="#e6e6e6", fg="#555555")
+            else:
                 if not title_matches_keyword(it.get("title", ""), keyword):
                     self.listbox.itemconfig(idx, bg="#ffe5e5", fg="#a00000")
 
