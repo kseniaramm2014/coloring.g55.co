@@ -5,6 +5,36 @@
     },
     "categories": [
         {
+            "id": "pokemon",
+            "name": "Pokemon",
+            "description": "Pokemon Coloring Pages provide printable coloring pages featuring characters and creatures from the Pokemon universe, designed for creative coloring activities at home or in classrooms. Characters include <a href='/?c=pikachu-pokemon'>Pikachu</a>, <a href='/?c=charmander-pokemon'>Charmander</a>, <a href='/?c=bulbasaur-pokemon'>Bulbasaur</a>, <a href='/?c=squirtle-pokemon'>Squirtle</a>, and <a href='/?c=eevee-pokemon'>Eevee</a> shown in playful poses across forests, grassy fields, training arenas, towns, and mountain paths. Environments place characters in adventure settings that reflect exploration and discovery across different regions. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+        },
+        {
+            "id": "pikachu-pokemon",
+            "name": "Pikachu Pokemon",
+            "description": "Pikachu Pokemon Coloring Pages feature printable coloring pages showing Pikachu in energetic poses suitable for creative activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present characters, pokeballs, trainers, forests, and electric themed scenes across open fields and villages. Scenes place Pikachu exploring grassy landscapes and friendly adventure locations that reflect the playful spirit of the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+        },
+        {
+            "id": "charmander-pokemon",
+            "name": "Charmander Pokemon",
+            "description": "Charmander Pokemon Coloring Pages feature printable coloring pages showing Charmander in adventurous poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Charmander, pokeballs, trainers, campfires, and rocky landscapes across forests and mountain paths. Scenes place characters exploring outdoor environments that reflect training journeys and discovery themes from the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+        },
+        {
+            "id": "bulbasaur-pokemon",
+            "name": "Bulbasaur Pokemon",
+            "description": "Bulbasaur Pokemon Coloring Pages feature printable coloring pages showing Bulbasaur in friendly poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Bulbasaur, pokeballs, trainers, flowers, and forest plants across gardens and grassy landscapes. Scenes place characters exploring nature environments that reflect growth and adventure themes from the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+        },
+        {
+            "id": "squirtle-pokemon",
+            "name": "Squirtle Pokemon",
+            "description": "Squirtle Pokemon Coloring Pages feature printable coloring pages showing Squirtle in playful poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Squirtle, pokeballs, trainers, waves, and beach scenes across oceans and island shores. Scenes place characters exploring water themed environments that reflect adventure and exploration across coastal settings. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+        },
+        {
+            "id": "eevee-pokemon",
+            "name": "Eevee Pokemon",
+            "description": "Eevee Pokemon Coloring Pages feature printable coloring pages showing Eevee in expressive poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Eevee, pokeballs, trainers, forest paths, and village scenes across fields and woodland areas. Scenes place characters exploring natural environments that reflect curiosity and discovery from the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+        },
+        {
             "id": "animals",
             "name": "Animals",
             "description": "Animals Coloring Pages provide printable coloring pages that introduce children to wildlife and familiar creatures through coloring sheets to print designed for creative exploration and animal recognition. Popular subjects include <a href='/?c=cat'>cats</a>, <a href='/?c=dog'>dogs</a>, <a href='/?c=horse'>horses</a>, <a href='/?c=lion'>lions</a>, <a href='/?c=elephant'>elephants</a>, and <a href='/?c=bunny'>bunnies</a>. Scenes appear across forests, farms, oceans, mountains, and grassy plains where animals live and move through natural habitats. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity supports classroom learning, home art time, and creative practice while helping children recognize animals and explore nature themed subjects."
@@ -113,11 +143,6 @@
             "id": "crash-bandicoot",
             "name": "Crash Bandicoot",
             "description": "Color Crash Bandicoot printable coloring pages featuring characters such as Crash, Coco, Dr. Neo Cortex, Aku Aku, Uka Uka, and creatures including masks, jungle animals, and island figures shown in tropical jungles, temples, beaches, and adventure islands. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom craft sessions and home art routines while coloring sheets to print encourage character recognition, visual focus, and early creative skill development."
-        },
-        {
-            "id": "pokemon",
-            "name": "Pokemon",
-            "description": "Color Pokemon printable coloring pages featuring characters such as Pikachu, Charmander, Bulbasaur, Squirtle, Eevee, and creatures including Jigglypuff, Snorlax, Meowth, and legendary figures shown in forests, battle arenas, towns, and fantasy landscapes. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom learning and home art routines while coloring sheets to print encourage character recognition, visual focus, and creative skill development through structured offline activity."
         },
         {
             "id": "mario",
