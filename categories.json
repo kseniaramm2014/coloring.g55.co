@@ -5,6 +5,36 @@
     },
     "categories": [
         {
+            "id": "mario",
+            "name": "Mario",
+            "description": "Mario Coloring Pages feature printable coloring pages inspired by popular characters from the Mario universe designed for kids who enjoy character based coloring activities. Children can color characters like <a href='/?c=mario-luigi'>Luigi</a>, <a href='/?c=mario-princess-peach'>Princess Peach</a>, <a href='/?c=mario-yoshi'>Yoshi</a>, <a href='/?c=mario-bowser'>Bowser</a>, and <a href='/?c=mario-toad'>Toad</a> while exploring familiar character designs from classic platform adventures. Scenes appear across mushroom kingdoms, castle courtyards, grassy hills, underground tunnels, and colorful villages that resemble worlds from Mario themed games. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+        },
+        {
+            "id": "mario-luigi",
+            "name": "Mario Luigi",
+            "description": "Mario Luigi Coloring Pages offer printable coloring pages featuring Luigi from the Mario universe for kids who enjoy character themed coloring activities. Children can color Luigi in scenes with mushrooms, pipes, coins, castles, and adventure gear inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Illustrations show Luigi exploring grassy hills, underground tunnels, castle corridors, and village paths across the Mushroom Kingdom. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+        },
+        {
+            "id": "mario-princess-peach",
+            "name": "Mario Princess Peach",
+            "description": "Mario Princess Peach Coloring Pages provide printable coloring pages featuring Princess Peach from the Mario universe for kids who enjoy character themed coloring activities. Children can color Princess Peach with crowns, castles, royal dresses, mushrooms, and friendly companions inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes appear in castle gardens, royal halls, bright villages, grassy fields, and magical kingdom settings connected to Peach adventures. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+        },
+        {
+            "id": "mario-yoshi",
+            "name": "Mario Yoshi",
+            "description": "Mario Yoshi Coloring Pages feature printable coloring pages showing Yoshi in playful adventures for kids who enjoy character themed coloring activities. Children can color Yoshi with eggs, mushrooms, fruits, clouds, and friendly companions inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes appear across grassy hills, jungle paths, island beaches, colorful villages, and sky platforms found in Mario adventures. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+        },
+        {
+            "id": "mario-bowser",
+            "name": "Mario Bowser",
+            "description": "Mario Bowser Coloring Pages present printable coloring pages featuring Bowser for kids who enjoy villain themed character coloring activities. Children can color Bowser with spiked shells, fire breath, castle towers, lava pits, and powerful poses inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes show Bowser inside fortress castles, volcanic landscapes, dungeon corridors, rocky mountains, and battle arenas across the Mario world. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+        },
+        {
+            "id": "mario-toad",
+            "name": "Mario Toad",
+            "description": "Mario Toad Coloring Pages include printable coloring pages featuring Toad from the Mario universe designed for kids who enjoy character themed coloring activities. Children can color Toad with mushroom caps, treasure chests, coins, lanterns, and adventure gear inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes appear in mushroom villages, castle halls, grassy fields, colorful markets, and underground passages from the Mushroom Kingdom. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+        },
+        {
             "id": "sonic",
             "name": "Sonic",
             "description": "Sonic Coloring Pages provide printable coloring pages featuring popular characters from the Sonic universe designed for kids who enjoy character based coloring activities. Children can color heroes like <a href='/?c=sonic-tails'>Tails</a>, <a href='/?c=sonic-knuckles'>Knuckles</a>, <a href='/?c=sonic-shadow'>Shadow</a>, <a href='/?c=sonic-amy'>Amy</a>, and <a href='/?c=sonic-silver'>Silver</a> while exploring well known character designs. Scenes appear across green hills, city zones, mechanical bases, racing tracks, and futuristic worlds that resemble environments from Sonic themed adventures. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clear black and white line art. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
@@ -168,11 +198,6 @@
             "id": "crash-bandicoot",
             "name": "Crash Bandicoot",
             "description": "Color Crash Bandicoot printable coloring pages featuring characters such as Crash, Coco, Dr. Neo Cortex, Aku Aku, Uka Uka, and creatures including masks, jungle animals, and island figures shown in tropical jungles, temples, beaches, and adventure islands. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom craft sessions and home art routines while coloring sheets to print encourage character recognition, visual focus, and early creative skill development."
-        },
-        {
-            "id": "mario",
-            "name": "Mario",
-            "description": "Color Mario printable coloring pages featuring characters such as Mario, Luigi, Princess Peach, Bowser, Yoshi, and figures including Toads, Goombas, Koopas, and power up items shown in castles, mushroom lands, race tracks, and adventure worlds. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home craft time while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline activity."
         },
         {
             "id": "roblox",
