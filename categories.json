@@ -5,6 +5,36 @@
     },
     "categories": [
         {
+            "id": "sonic",
+            "name": "Sonic",
+            "description": "Sonic Coloring Pages provide printable coloring pages featuring popular characters from the Sonic universe designed for kids who enjoy character based coloring activities. Children can color heroes like <a href='/?c=sonic-tails'>Tails</a>, <a href='/?c=sonic-knuckles'>Knuckles</a>, <a href='/?c=sonic-shadow'>Shadow</a>, <a href='/?c=sonic-amy'>Amy</a>, and <a href='/?c=sonic-silver'>Silver</a> while exploring well known character designs. Scenes appear across green hills, city zones, mechanical bases, racing tracks, and futuristic worlds that resemble environments from Sonic themed adventures. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clear black and white line art. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+        },
+        {
+            "id": "sonic-tails",
+            "name": "Sonic Tails",
+            "description": "Sonic Tails Coloring Pages include printable coloring pages featuring the clever fox companion from the Sonic universe. Kids can color Tails flying, Tails building gadgets, Tails piloting airplanes, Tails running beside friends, and Tails exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Environments include green hills, workshop labs, island landscapes, mechanical bases, and sky adventures that reflect familiar Sonic style locations. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+        },
+        {
+            "id": "sonic-knuckles",
+            "name": "Sonic Knuckles",
+            "description": "Sonic Knuckles Coloring Pages offer printable coloring pages featuring the strong echidna guardian known for his adventurous spirit. Children can color Knuckles climbing cliffs, Knuckles guarding treasure, Knuckles running through landscapes, Knuckles punching obstacles, and Knuckles exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Scenes appear across jungle islands, rocky mountains, ancient temples, caves, and adventure zones that match the character’s world. The pages include simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice centered on character themed coloring."
+        },
+        {
+            "id": "sonic-amy",
+            "name": "Sonic Amy",
+            "description": "Sonic Amy Coloring Pages present printable coloring pages featuring the cheerful pink hedgehog character from the Sonic universe. Children can color Amy holding her hammer, Amy running, Amy smiling, Amy helping friends, and Amy exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Scenes include colorful towns, flower fields, park areas, adventure paths, and friendly village environments inspired by the Sonic world. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and creativity."
+        },
+        {
+            "id": "sonic-silver",
+            "name": "Sonic Silver",
+            "description": "Sonic Silver Coloring Pages provide printable coloring pages showing the futuristic psychic hedgehog from the Sonic universe. Kids can color Silver using telekinesis, Silver running, Silver floating objects, Silver standing heroically, and Silver exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Environments include futuristic cities, space landscapes, crystal fields, energy zones, and adventure paths that match the character’s setting. The pages include simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice focused on imaginative character coloring."
+        },
+        {
+            "id": "sonic-shadow",
+            "name": "Sonic Shadow",
+            "description": "Sonic Shadow Coloring Pages feature printable coloring pages focused on the powerful rival character from the Sonic universe. Kids can color Shadow running, Shadow using energy powers, Shadow standing heroically, Shadow racing, and Shadow battling enemies while exploring scenes related to <a href='/?c=sonic'>Sonic Coloring Pages</a>. Backgrounds include futuristic cities, research labs, space stations, battle arenas, and night environments that highlight the character’s dramatic style. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clear black and white designs. These coloring sheets support classroom activities, home art time, and creative practice for fans who enjoy character focused coloring."
+        },
+        {
             "id": "pokemon",
             "name": "Pokemon",
             "description": "Pokemon Coloring Pages provide printable coloring pages featuring characters and creatures from the Pokemon universe, designed for creative coloring activities at home or in classrooms. Characters include <a href='/?c=pikachu-pokemon'>Pikachu</a>, <a href='/?c=charmander-pokemon'>Charmander</a>, <a href='/?c=bulbasaur-pokemon'>Bulbasaur</a>, <a href='/?c=squirtle-pokemon'>Squirtle</a>, and <a href='/?c=eevee-pokemon'>Eevee</a> shown in playful poses across forests, grassy fields, training arenas, towns, and mountain paths. Environments place characters in adventure settings that reflect exploration and discovery across different regions. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
@@ -133,11 +163,6 @@
             "id": "zootopia",
             "name": "Zootopia",
             "description": "Color Zootopia themed printable coloring pages featuring characters such as Judy Hopps, Nick Wilde, Chief Bogo, Flash, Clawhauser, and animals including foxes, rabbits, sloths, buffalo, and gazelles shown in city streets, police stations, parks, and urban neighborhoods. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom activities and home art time while coloring sheets to print encourage character recognition, visual focus, and early learning routines."
-        },
-        {
-            "id": "sonic",
-            "name": "Sonic",
-            "description": "Color Sonic themed printable coloring pages featuring characters such as Sonic, Tails, Knuckles, Amy, Shadow, and villains including Dr. Robotnik shown in green hills, city zones, loop tracks, and adventure landscapes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early learning development through creative offline activity."
         },
         {
             "id": "crash-bandicoot",
