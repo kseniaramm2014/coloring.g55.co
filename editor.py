@@ -53,31 +53,30 @@ def normalize_loaded_json(loaded, file_name: str):
     raise ValueError('Unsupported JSON format. Expected {"pages": [...]} or a list.')
 
 
-def category_keywords_from_filename(name: str) -> list[str]:
-    name = os.path.splitext((name or "").strip())[0].lower()
-    parts = re.split(r"[-_\s]+", name)
-    return [part for part in parts if part]
+def category_keyword_from_filename(name: str) -> str:
+    name = os.path.splitext((name or "").strip())[0]
+    return name.lower().replace("-", " ").strip()
 
 
-def count_title_keyword_matches(items, keywords: list[str]) -> int:
-    keywords = [str(keyword).strip().lower() for keyword in (keywords or []) if str(keyword).strip()]
-    if not keywords:
+def count_title_keyword_matches(items, keyword: str) -> int:
+    keyword = (keyword or "").strip().lower().replace("-", " ")
+    if not keyword:
         return 0
 
     count = 0
     for it in items:
         title = str(it.get("title", "")).strip().lower()
-        if all(keyword in title for keyword in keywords):
+        if keyword in title:
             count += 1
     return count
 
 
-def title_matches_keyword(title: str, keywords: list[str]) -> bool:
-    keywords = [str(keyword).strip().lower() for keyword in (keywords or []) if str(keyword).strip()]
+def title_matches_keyword(title: str, keyword: str) -> bool:
+    keyword = (keyword or "").strip().lower().replace("-", " ")
     title = (title or "").strip().lower()
-    if not keywords:
+    if not keyword:
         return False
-    return all(keyword in title for keyword in keywords)
+    return keyword in title
 
 
 def category_description_has_link(description: str) -> bool:
@@ -237,8 +236,8 @@ class JsonGui(tk.Tk):
             text = f"Descriptions: {linked}/{total}"
         else:
             file_name = os.path.basename(self.current_file) if self.current_file else self.file_var.get()
-            keywords = category_keywords_from_filename(file_name)
-            matched = count_title_keyword_matches(self.items, keywords)
+            keyword = category_keyword_from_filename(file_name)
+            matched = count_title_keyword_matches(self.items, keyword)
             text = f"Pages: {matched}/{total}"
 
         if prefix:
@@ -395,7 +394,7 @@ class JsonGui(tk.Tk):
         self.listbox.delete(0, tk.END)
 
         file_name = os.path.basename(self.current_file) if self.current_file else self.file_var.get()
-        keywords = category_keywords_from_filename(file_name)
+        keyword = category_keyword_from_filename(file_name)
 
         for idx, it in enumerate(self.items):
             label = it.get("name") if self.is_root_categories_mode() else it.get("title")
@@ -406,7 +405,7 @@ class JsonGui(tk.Tk):
                 if not category_description_has_link(it.get("description", "")):
                     self.listbox.itemconfig(idx, bg="#e6e6e6", fg="#555555")
             else:
-                if not title_matches_keyword(it.get("title", ""), keywords):
+                if not title_matches_keyword(it.get("title", ""), keyword):
                     self.listbox.itemconfig(idx, bg="#ffe5e5", fg="#a00000")
 
     def on_title_change(self, event=None):
