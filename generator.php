@@ -288,7 +288,7 @@ function read_category_json_locked($fp): array {
 function write_category_json_locked($fp, array $data): void {
   ftruncate($fp, 0);
   rewind($fp);
-  fwrite($fp, json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
+  fwrite($fp, str_replace("    ", "", json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT)));
   fflush($fp);
 }
 
