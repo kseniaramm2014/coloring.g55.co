@@ -1,29 +1,99 @@
-walking happily
-standing calmly
-sitting calmly
-sleeping peacefully
-resting calmly
-waving happily
-smiling happily
-jumping playfully
-running happily
-looking around curiously
-exploring curiously
-watching calmly
-listening carefully
-roaring playfully
-howling playfully
-flying calmly
-gliding calmly
-swimming calmly
-floating calmly
-crawling calmly
-digging carefully
-stomping playfully
-posing happily
-wandering curiously
-holding a flower
-holding an apple
-looking at the sky
-playing happily
-relaxing peacefully
+creeping quietly
+moving silently
+sneaking slowly
+lurking silently
+watching silently
+standing still quietly
+hiding behind a block
+hiding behind a tree
+peeking from behind a wall
+peeking from behind leaves
+moving through tall grass
+creeping through the shadows
+standing in the shadows
+waiting silently
+watching from afar
+watching from the forest edge
+watching from a hill
+waiting behind a rock
+standing behind a tree
+standing behind a wall
+wandering slowly
+exploring cautiously
+walking slowly through grass
+moving between trees
+walking near a cave entrance
+walking along a path
+wandering through the forest
+wandering near a river
+walking along a hillside
+wandering near a cliff
+walking near a village
+exploring near a mountain
+walking through a jungle
+exploring near a ruin
+walking through tall plants
+wandering near lava rocks
+looking around carefully
+looking toward a village
+looking toward a house
+looking toward a portal
+watching a player from afar
+watching animals nearby
+watching villagers working
+watching the sky quietly
+watching the forest quietly
+watching the horizon
+watching the sunset
+watching glowing lava
+watching a waterfall
+watching a cave entrance
+watching a distant structure
+standing near TNT
+standing near redstone blocks
+standing near a trap
+creeping near a redstone device
+walking near TNT blocks
+standing beside an explosion crater
+standing near broken blocks
+moving toward a structure
+approaching a base slowly
+sneaking toward a village
+lurking near a farm
+lurking near a house
+lurking near a cave
+lurking near a portal
+lurking near a bridge
+walking up a hill
+walking down a hill
+standing on a hilltop
+walking along a riverbank
+standing near tall grass
+walking between rocks
+walking along a forest path
+standing near tree roots
+moving across stone blocks
+moving along a dirt path
+walking near bushes
+walking through vines
+standing near glowing lava
+walking near a waterfall
+standing beside a lava cave
+standing beside a waterfall
+standing beside a cliff
+walking near jungle trees
+walking near bamboo stalks
+standing near snowy trees
+walking across a stone bridge
+standing near a wooden bridge
+walking near farmland
+standing under a sunset sky
+standing under a starry sky
+walking through morning fog
+walking through light rain
+standing in moonlight
+standing under glowing stars
+watching the night sky
+walking under dark clouds
+standing under a bright sun
+walking through mist
