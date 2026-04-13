@@ -16,16 +16,13 @@ looking toward the sky
 looking into the distance
 standing tall quietly
 standing in the shadows
-standing among tall grass
-standing between trees
-standing beside a cave entrance
-standing beside a cliff
-standing beside a waterfall
-standing near a portal
-standing near a nether portal
-standing near glowing lava
-standing near obsidian blocks
-standing near tall plants
+standing calmly
+standing quietly
+observing silently
+observing curiously
+studying the surroundings
+watching carefully
+watching silently
 holding a grass block
 holding a dirt block
 holding a sand block
@@ -34,54 +31,42 @@ holding a mushroom block
 holding a moss block
 holding a netherrack block
 holding an end stone block
-picking up a block
-placing a block carefully
+holding a block silently
 carrying a block quietly
 moving a block slowly
+placing a block carefully
+picking up a block
 studying a block curiously
 teleporting silently
+teleporting suddenly
 appearing suddenly
+appearing silently
 vanishing quietly
 appearing from the shadows
-appearing near a tree
-appearing near a cave entrance
-appearing near a portal
-appearing near a river
-appearing near a village
-teleporting between trees
-teleporting near a cliff
-teleporting near a waterfall
-teleporting across stone blocks
-teleporting across grass
-teleporting across sand
-teleporting across snow
-teleporting across a hillside
-wandering slowly
-wandering near a forest edge
-wandering near a mountain
-wandering near a cave
-wandering near a river
-wandering through tall grass
-wandering through a jungle
-wandering through vines
+vanishing into the shadows
+materializing suddenly
+dematerializing silently
 standing under a dark sky
 standing under a sunset sky
 standing under a starry sky
 standing under moonlight
 watching the night sky
-walking through morning fog
-walking through mist
-walking under dark clouds
-walking through light rain
-teleporting behind a tree
-teleporting near obsidian
-appearing beside tall grass
-vanishing near a portal
-watching from the shadows
-holding a block in silence
-standing near end stone
-appearing on a hilltop
-watching from beside a cliff
-teleporting near a forest edge
-appearing beside a waterfall
-standing beside obsidian
+wandering slowly
+wandering silently
+wandering aimlessly
+moving silently
+moving slowly
+approaching quietly
+approaching slowly
+observing from a distance
+watching calmly
+standing motionless
+standing alert
+watching cautiously
+studying the horizon
+studying the sky
+watching quietly in silence
+standing quietly in silence
+observing the surroundings
+watching attentively
+standing still silently
