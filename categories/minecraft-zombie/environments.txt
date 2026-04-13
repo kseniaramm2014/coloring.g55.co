@@ -1,7 +1,3 @@
-in a village
-in a cave
-in a lush cave
-in a dripstone cave
 in a forest
 in a dark forest
 in a jungle
@@ -10,12 +6,9 @@ in a desert
 in a savanna
 in snowy tundra
 in mountains
-on an ocean shore
-on a beach
 near a river
 in a swamp
 in a mangrove swamp
-on a mushroom island
 in a flower forest
 in sunflower plains
 in a meadow
