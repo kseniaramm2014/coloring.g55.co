@@ -1,17 +1,29 @@
-in a pizzeria dining area
+in a stage area
+in a performance room
+in a party room
+in a game room
+in an entertainment room
+in a decorated room
+in a colorful room
+in a play area
+in a fun center
+in a themed room
+near a stage
+near party tables
+near decorations
+near balloons
+near arcade machines
+near a play area
+near a party table
+inside a building
+inside a large room
+inside a party hall
+inside a decorated hall
+on a stage
+on a small platform
 on a performance stage
-in a decorated party room
-in a birthday celebration room
-in a colorful party hall
-in a family restaurant
-in a bright game arcade
-in a fun entertainment center
-inside an indoor play area
-in a decorated playroom
-in a celebration hall
-in a show stage area
-in a music stage hall
-in a colorful entertainment hall
-inside a cartoon party hall
-in a bright party room
-in a festive event room
+near a curtain
+near a party banner
+near a gift table
+near a game machine
+near a party setup
