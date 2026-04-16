@@ -5,6 +5,16 @@
 },
 "categories": [
 {
+"id": "fnaf",
+"name": "FNAF",
+"description": "FNAF Coloring Pages offer printable coloring pages featuring animatronic characters from the Five Nights at Freddy’s universe designed for creative coloring activity and character recognition. Subjects include <a href='/?c=fnaf-freddy-fazbear'>Freddy Fazbear</a>, <a href='/?c=fnaf-bonnie'>Bonnie</a>, <a href='/?c=fnaf-chica'>Chica</a>, <a href='/?c=fnaf-foxy'>Foxy</a>, and <a href='/?c=fnaf-golden-freddy'>Golden Freddy</a>, along with security guards shown as recognizable figures from the game series. Scenes place these characters inside arcades, stages, pizzerias, security rooms, and indoor entertainment areas. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages that remain easy to color. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
+},
+{
+"id": "fnaf-freddy-fazbear",
+"name": "FNAF Freddy Fazbear",
+"description": "FNAF Freddy Fazbear Coloring Pages provide printable coloring pages featuring the famous animatronic bear from the Five Nights at Freddy’s universe for character focused coloring activity. Subjects include Freddy Fazbear, microphones, stage curtains, pizza boxes, and arcade speakers shown alongside characters from <a href='/?c=fnaf'>FNAF Coloring Pages</a>. Scenes place Freddy in pizzerias, stage performances, security rooms, party halls, and indoor arcade areas inspired by the game setting. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs suitable for coloring. This category supports home art time, classroom activities, and creative practice built around recognizable game characters."
+},
+{
 "id": "fnaf-golden-freddy",
 "name": "FNAF Golden Freddy",
 "description": "FNAF Golden Freddy Coloring Pages feature printable coloring pages centered on the golden animatronic character from the Five Nights at Freddy’s universe. These pages highlight Golden Freddy as a recognizable bear animatronic often shown holding a microphone, posing for a performance, or standing inside entertainment areas inspired by the game setting. Scenes include stage platforms, decorated party rooms, arcade areas, and indoor performance spaces designed for clear printable outlines and easy coloring. Kids can color Golden Freddy in different poses and activity scenes while recognizing one of the well-known characters from the series. For more animatronic characters and printable scenes, explore the full <a href='/?c=fnaf'>FNAF Coloring Pages</a> collection."
@@ -133,16 +143,6 @@
 "id": "elephant",
 "name": "Elephant",
 "description": "Elephant Coloring Pages feature printable coloring pages that allow children to color large wildlife animals through coloring sheets to print designed for educational art activities. Subjects include elephants, baby elephants, African elephants, Asian elephants, and elephant family groups shown in natural wildlife poses. Scenes appear across jungles, rivers, savannas, forests, and watering holes where elephants walk, play, and gather. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom learning, home art time, and nature themed creative practice."
-},
-{
-"id": "fnaf",
-"name": "FNAF",
-"description": "FNAF Coloring Pages offer printable coloring pages featuring animatronic characters from the Five Nights at Freddy’s universe designed for creative coloring activity and character recognition. Subjects include <a href='/?c=fnaf-freddy-fazbear'>Freddy Fazbear</a>, <a href='/?c=fnaf-bonnie'>Bonnie</a>, <a href='/?c=fnaf-chica'>Chica</a>, <a href='/?c=fnaf-foxy'>Foxy</a>, and <a href='/?c=fnaf-golden-freddy'>Golden Freddy</a>, along with security guards shown as recognizable figures from the game series. Scenes place these characters inside arcades, stages, pizzerias, security rooms, and indoor entertainment areas. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages that remain easy to color. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
-},
-{
-"id": "fnaf-freddy-fazbear",
-"name": "FNAF Freddy Fazbear",
-"description": "FNAF Freddy Fazbear Coloring Pages provide printable coloring pages featuring the famous animatronic bear from the Five Nights at Freddy’s universe for character focused coloring activity. Subjects include Freddy Fazbear, microphones, stage curtains, pizza boxes, and arcade speakers shown alongside characters from <a href='/?c=fnaf'>FNAF Coloring Pages</a>. Scenes place Freddy in pizzerias, stage performances, security rooms, party halls, and indoor arcade areas inspired by the game setting. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs suitable for coloring. This category supports home art time, classroom activities, and creative practice built around recognizable game characters."
 },
 {
 "id": "fnaf-bonnie",
