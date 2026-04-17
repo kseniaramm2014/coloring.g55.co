@@ -12,55 +12,55 @@ looking around carefully
 looking into the distance
 looking toward the sky
 observing carefully
-observing the surroundings
+observing the surrounding
 holding a pickaxe
 holding a sword
 holding a shovel
 holding an axe
 holding a block
-holding tools
+holding a tool
 holding equipment
-holding resources
-holding building blocks
-carrying blocks
-carrying tools
-carrying resources
-carrying materials
-carrying wooden planks
-carrying stone blocks
+holding a resource
+holding building block
+carrying block
+carrying tool
+carrying resource
+carrying material
+carrying wooden plank
+carrying stone block
 placing a block
-placing blocks carefully
+placing block carefully
 building carefully
 building slowly
 constructing something
 working carefully
 working quietly
 holding a crafted item
-holding materials
+holding material
 standing with a pickaxe
-standing with tools
+standing with tool
 standing with equipment
 mining carefully
 mining slowly
 digging carefully
 digging slowly
-gathering resources
-gathering supplies
-collecting materials
-collecting resources
-collecting blocks
+gathering resource
+gathering supply
+collecting material
+collecting resource
+collecting block
 exploring carefully
 exploring slowly
 walking slowly
 walking carefully
 moving slowly
 moving carefully
-walking with tools
-checking surroundings
-studying the surroundings
+walking with tool
+checking surrounding
+studying the surrounding
 watching the horizon
 observing from a distance
 thinking carefully
 standing quietly in silence
 watching quietly in silence
-standing calmly with tools
+standing calmly with tool
