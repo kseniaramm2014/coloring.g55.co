@@ -12,6 +12,7 @@ APP_DIR = os.path.join(BASE_DIR, "app")
 
 CATEGORIES_DIR = os.path.join(BASE_DIR, "categories")
 STYLE_FILE = os.path.join(CATEGORIES_DIR, "style.txt")
+ACTIONS_FILE = os.path.join(CATEGORIES_DIR, "actions.txt")
 
 POOL_FILES = {
     "intro": os.path.join(APP_DIR, "intro_pool.txt"),
@@ -55,9 +56,17 @@ def load_style():
     return lines[0] if lines else ""
 
 
+def load_shared_actions():
+    return load_lines(ACTIONS_FILE)
+
+
 def load_category_data(category_name):
     cat_dir = os.path.join(CATEGORIES_DIR, category_name)
-    data = {k: load_lines(os.path.join(cat_dir, f"{k}.txt")) for k in LIST_NAMES}
+    data = {
+        "characters": load_lines(os.path.join(cat_dir, "characters.txt")),
+        "actions": load_shared_actions(),
+        "environments": load_lines(os.path.join(cat_dir, "environments.txt")),
+    }
     data["style"] = load_style()
     return data
 
