@@ -1,47 +1,49 @@
 mario
-mario
-mario
-mario
-mario
-luigi mario brother
-luigi mario brother
-luigi mario brother
-princess peach mario princess
-princess peach mario princess
-princess peach mario princess
-yoshi mario dinosaur
-yoshi mario dinosaur
-yoshi mario dinosaur
-bowser mario villain
-bowser mario villain
-toad mario mushroom helper
-toad mario mushroom helper
-donkey kong mario ally
-donkey kong mario ally
-princess daisy mario princess
-princess daisy mario princess
-rosalina mario princess
-rosalina mario princess
-wario mario rival
-wario mario rival
-waluigi mario rival
-waluigi mario rival
-bowser jr mario villain
-bowser jr mario villain
-toadette mario mushroom girl
-birdo mario dinosaur
-koopa troopa mario turtle
-goomba mario enemy
-boo mario ghost
-king boo mario ghost
-shy guy mario masked enemy
-lakitu mario cloud rider
-hammer bro mario enemy
-chain chomp mario creature
-baby mario
-baby luigi mario brother
-baby peach mario princess
-baby daisy mario princess
+mario luigi
+mario princess peach
+mario princess daisy
+mario toad
+mario toadette
+mario yoshi
+mario bowser
+mario bowser jr
+mario goomba
+mario koopa troopa
+mario paratroopa
+mario boo
+mario dry bones
+mario shy guy
+mario lakitu
+mario wario
+mario waluigi
+mario rosalina
+mario birdo
+mario hammer bro
+mario fire bro
+mario ice bro
+mario chain chomp
+mario cheep cheep
+mario blooper
+mario piranha plant
+mario bullet bill
+mario monty mole
+mario spiny
+mario thwomp
+mario king boo
+mario baby luigi
+mario baby peach
+mario baby daisy
+mario baby rosalina
 cat mario
 tanooki mario
+fire mario
+ice mario
+penguin mario
+raccoon mario
 builder mario
+cape mario
+metal mario
+gold mario
+flying mario
+giant mario
+mini mario
