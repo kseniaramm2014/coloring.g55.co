@@ -473,12 +473,18 @@ class JsonGui(tk.Tk):
             return
 
         folder_path = os.path.join(CATEGORIES_DIR, category_id)
+        characters_file_path = os.path.join(folder_path, "characters.txt")
+        characters_line = category_id.replace("-", " ")
 
         try:
             if not os.path.exists(folder_path):
                 os.makedirs(folder_path)
+
+            if not os.path.exists(characters_file_path):
+                with open(characters_file_path, "w", encoding="utf-8") as f:
+                    f.write(characters_line + "\n")
         except Exception as e:
-            messagebox.showerror("Folder creation failed", f"Could not create folder:\n{e}")
+            messagebox.showerror("Folder creation failed", f"Could not create folder or characters.txt:\n{e}")
 
     def find_duplicate_id(self, item_id, ignore_index=None):
         for idx, it in enumerate(self.items):
