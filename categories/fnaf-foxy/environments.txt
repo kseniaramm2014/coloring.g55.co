@@ -1,29 +1,84 @@
-in a stage area
-in a performance room
-in a party room
-in a game room
-in an entertainment room
-in a decorated room
-in a colorful room
-in a play area
-in a fun center
-in a themed room
-near a stage
-near party tables
-near decorations
-near balloons
-near arcade machines
-near a play area
-near a party table
-inside a building
-inside a large room
-inside a party hall
-inside a decorated hall
-on a stage
-on a small platform
-on a performance stage
-near a curtain
-near a party banner
-near a gift table
-near a game machine
-near a party setup
+in pizzeria
+in pizza place
+in family restaurant
+in closed restaurant
+in abandoned pizzeria
+in dining area
+in party room
+in birthday room
+in celebration room
+in party hall
+in arcade room
+in game room
+in prize corner
+in show stage
+on stage
+in animatronic stage
+in backstage area
+in pirate cove
+in performance area
+in character area
+in animatronic room
+in mascot room
+in entertainment room
+in security office
+in night guard office
+in office with monitors
+in surveillance room
+in camera room
+in monitor room
+in control room
+in hallway
+in pizzeria hallway
+in empty hallway
+in narrow hallway
+in simple hallway
+in entrance area
+in lobby
+in doorway
+in kitchen
+in supply room
+in storage room
+in parts room
+in repair room
+in maintenance room
+in workshop
+in hidden room
+in safe room
+in locked room
+in simple room
+in empty room
+in checker floor room
+in poster room
+in vent area
+in vent tunnel
+in underground tunnel
+in main room
+in side room
+in corner room
+in indoor playground
+in play area
+in kids area
+in ball pit area
+in ticket area
+in counter area
+at front desk
+on checker floor
+on tiled floor
+on party floor
+in neon room
+in glowing room
+in themed room
+in decorated room
+in corner area
+in quiet room
+in empty office
+in stage room
+in decorated stage
+in night office
+in late night hallway
+in abandoned room
+in old party room
+in old arcade room
+in simple stage
+in silent room
