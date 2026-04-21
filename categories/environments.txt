@@ -1,0 +1,72 @@
+in forest
+in jungle
+in grassy field
+in open field
+in flower field
+in garden
+on hill
+on mountain
+in valley
+in cave
+in underground cave
+in tunnel
+in rocky area
+in water
+by river
+by waterfall
+in ocean
+on beach
+on island
+in desert
+in sand
+in snowy field
+on snowy hill
+in ice area
+in icy cave
+in sky area
+on cloud
+in floating island
+on platform
+on bridge
+on wooden bridge
+on stone bridge
+on pathway
+in village
+in town
+in road
+in street
+in house
+in small house
+in castle
+in tower
+in hallway
+in room
+in simple room
+in storage room
+in workshop
+in trees
+in park
+in playground
+in camp area
+at campfire spot
+at fishing spot
+in meadow
+in farm
+in crop field
+in wheat field
+by lake
+in canyon
+in ravine
+on cliff
+in lava area
+on lava platform
+in glowing zone
+in bonus room
+in treasure room
+in start area
+in finish area
+in challenge area
+in adventure area
+in obstacle course
+in level
+in game world
