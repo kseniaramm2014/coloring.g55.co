@@ -5,6 +5,16 @@
 },
 "categories": [
 {
+"id": "zootopia",
+"name": "Zootopia",
+"description": "Color Zootopia themed printable coloring pages featuring characters such as Judy Hopps, Nick Wilde, Chief Bogo, Flash, Clawhauser, and animals including foxes, rabbits, sloths, buffalo, and gazelles shown in city streets, police stations, parks, and urban neighborhoods. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom activities and home art time while coloring sheets to print encourage character recognition, visual focus, and early learning routines."
+},
+{
+"id": "zootopia-flash",
+"name": "Zootopia Flash",
+"description": "Zootopia Flash Coloring Pages provide printable coloring pages featuring the slow-moving sloth character from Zootopia designed for fun character-based coloring activity. Illustrations include Flash, DMV workers, office desks, computer stations, and queue lines shown in recognizable scenes from the film. Scenes place Flash inside city offices, DMV interiors, urban workplaces, and indoor service areas that reflect everyday environments. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for easy coloring. This category supports classroom activities, home art time, and creative practice while connecting to <a href='/?c=zootopia-coloring-pages'>Zootopia Coloring Pages</a> for more printable options."
+},
+{
 "id": "fnaf",
 "name": "FNAF",
 "description": "FNAF Coloring Pages offer printable coloring pages featuring animatronic characters from the Five Nights at Freddy’s universe designed for creative coloring activity and character recognition. Subjects include <a href='/?c=fnaf-freddy-fazbear'>Freddy Fazbear</a>, <a href='/?c=fnaf-bonnie'>Bonnie</a>, <a href='/?c=fnaf-chica'>Chica</a>, <a href='/?c=fnaf-foxy'>Foxy</a>, and <a href='/?c=fnaf-golden-freddy'>Golden Freddy</a>, along with security guards shown as recognizable figures from the game series. Scenes place these characters inside arcades, stages, pizzerias, security rooms, and indoor entertainment areas. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages that remain easy to color. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
@@ -193,11 +203,6 @@
 "id": "minecraft-skeleton",
 "name": "Minecraft Skeleton",
 "description": "Minecraft Skeleton Coloring Pages feature printable coloring pages showing the block style archer appearing in creative Minecraft themed coloring activities. Illustrations include skeletons holding bows, standing in forests, guarding caves, wandering near villages, and appearing in nighttime scenes inspired by <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Scenes appear across forests, caves, villages, mountains, and open plains that resemble recognizable Minecraft environments. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. These pages support classroom activities, home art time, and creative practice while encouraging visual recognition and focused coloring skills."
-},
-{
-"id": "zootopia",
-"name": "Zootopia",
-"description": "Color Zootopia themed printable coloring pages featuring characters such as Judy Hopps, Nick Wilde, Chief Bogo, Flash, Clawhauser, and animals including foxes, rabbits, sloths, buffalo, and gazelles shown in city streets, police stations, parks, and urban neighborhoods. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom activities and home art time while coloring sheets to print encourage character recognition, visual focus, and early learning routines."
 },
 {
 "id": "crash-bandicoot",
