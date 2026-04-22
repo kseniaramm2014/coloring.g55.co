@@ -5,6 +5,26 @@
 },
 "categories": [
 {
+"id": "spongebob",
+"name": "SpongeBob",
+"description": "SpongeBob Coloring Pages provide printable coloring pages featuring underwater cartoon characters designed for creative coloring activity and character recognition. Subjects include SpongeBob, <a href='/?c=patrick-star'>Patrick Star</a>, <a href='/?c=squidward'>Squidward</a>, <a href='/?c=gary'>Gary</a>, and jellyfish shown as recognizable figures from the series. Scenes place characters in oceans, sandy seafloors, Bikini Bottom streets, and indoor homes with familiar settings from the show. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports classroom activities, home art time, and creative practice focused on character recognition and visual learning."
+},
+{
+"id": "spongebob-patrick-star",
+"name": "SpongeBob Patrick Star",
+"description": "SpongeBob Patrick Star Coloring Pages feature printable coloring pages focused on a friendly starfish character designed for creative coloring activity and character recognition. Subjects include Patrick Star, beach rocks, sand mounds, jellyfish nets, and underwater props shown as recognizable elements from the series. Scenes place the character in oceans, sandy seafloors, Bikini Bottom streets, and simple home settings connected to <a href='/?c=spongebob'>SpongeBob Coloring Pages</a>. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports classroom activities and home art time."
+},
+{
+"id": "spongebob-squidward",
+"name": "SpongeBob Squidward",
+"description": "SpongeBob Squidward Coloring Pages feature printable coloring pages centered on a cartoon octopus character designed for creative coloring activity and character recognition. Subjects include Squidward, clarinets, easels, paintings, and house interiors shown as recognizable elements from the series. Scenes place the character in indoor rooms, Bikini Bottom streets, art spaces, and ocean environments connected to <a href='/?c=spongebob'>SpongeBob Coloring Pages</a>. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports classroom activities and creative practice."
+},
+{
+"id": "spongebob-gary",
+"name": "SpongeBob Gary",
+"description": "SpongeBob Gary Coloring Pages feature printable coloring pages focused on a pet snail character designed for creative coloring activity and character recognition. Subjects include Gary, shells, food bowls, small furniture, and bubbles shown as recognizable elements from the series. Scenes place the character in indoor homes, ocean floors, Bikini Bottom streets, and simple room settings connected to <a href='/?c=spongebob'>SpongeBob Coloring Pages</a>. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports home art time and learning activities."
+},
+{
 "id": "princess",
 "name": "Princess",
 "description": "Princess Coloring Pages provide printable coloring pages featuring royal characters and fantasy figures designed for creative coloring activity and visual recognition. Subjects include Cinderella, Ariel, Elsa, <a href='/?c=princess-rapunzel'>Rapunzel</a>, and Belle shown alongside crowns, castles, animals, and magical companions. Scenes place characters in castles, forests, gardens, and villages with varied visual settings. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages. This category supports classroom activities and home art time while encouraging creativity, focus, and early learning."
@@ -238,11 +258,6 @@
 "id": "fortnite",
 "name": "Fortnite",
 "description": "Color Fortnite printable coloring pages featuring characters such as battle heroes, island explorers, armored warriors, builders, and figures including robots, mascots, creatures, and themed outfits shown in battle maps, towns, forests, and fantasy landscapes. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home activity time while coloring sheets to print encourage character recognition, visual focus, and early creative skill development through structured offline play."
-},
-{
-"id": "spongebob",
-"name": "SpongeBob",
-"description": "Color SpongeBob printable coloring pages featuring characters such as SpongeBob, Patrick, Squidward, Sandy, Mr. Krabs, and sea figures including Plankton, Gary, jellyfish, and ocean friends shown in Bikini Bottom homes, coral reefs, classrooms, and underwater scenes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom craft sessions and home art routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline activity."
 },
 {
 "id": "spiderman",
