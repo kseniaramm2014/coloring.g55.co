@@ -5,6 +5,16 @@
 },
 "categories": [
 {
+"id": "princess",
+"name": "Princess",
+"description": "Color princess printable coloring pages featuring characters such as royal princesses, fairy queens, castle heroines, storybook leaders, and figures including princes, dragons, unicorns, and magical companions shown in castles, gardens, ballrooms, and fantasy kingdoms. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline activity."
+},
+{
+"id": "princess-rapunzel",
+"name": "Princess Rapunzel",
+"description": "Princess Rapunzel Coloring Pages offer printable coloring pages featuring the long-haired princess from the Tangled story designed for creative coloring activity and character recognition. Subjects include Rapunzel with her long flowing hair, Pascal the chameleon, and royal scenes connected to <a href='/?c=princess'>Princess Coloring Pages</a> and castle or forest environments. Scenes place Rapunzel in towers, gardens, pathways, and storybook settings with simple compositions suitable for kids. Pages range from easy outline drawings for younger children to more detailed pages for older kids using bold line art that remains clear and easy to color. This category supports home art time, classroom activities, and creative practice focused on a well-known princess character."
+},
+{
 "id": "zootopia",
 "name": "Zootopia",
 "description": "Color Zootopia themed printable coloring pages featuring characters such as Judy Hopps, Nick Wilde, <a href='/?c=zootopia-chief-bogo'>Chief Bogo</a>, <a href='/?c=zootopia-flash'>Flash</a>, <a href='/?c=zootopia-clawhauser'>Clawhauser</a>, and animals including foxes, rabbits, sloths, buffalo, and gazelles shown in city streets, police stations, parks, and urban neighborhoods. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom activities and home art time while coloring sheets to print encourage character recognition, visual focus, and early learning routines."
@@ -263,11 +273,6 @@
 "id": "vehicles",
 "name": "Vehicles",
 "description": "Color vehicle printable coloring pages featuring transport types such as cars, trucks, buses, trains, airplanes, and machines including tractors, motorcycles, fire engines, ambulances, and construction vehicles shown in cities, roads, airports, farms, and work sites. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom transport lessons and home art routines while coloring sheets to print encourage object recognition, visual focus, and early learning through structured offline activity."
-},
-{
-"id": "princess",
-"name": "Princess",
-"description": "Color princess printable coloring pages featuring characters such as royal princesses, fairy queens, castle heroines, storybook leaders, and figures including princes, dragons, unicorns, and magical companions shown in castles, gardens, ballrooms, and fantasy kingdoms. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline activity."
 },
 {
 "id": "unicorn",
