@@ -5,24 +5,39 @@
 },
 "categories": [
 {
-"id": "hello-kitty",
-"name": "Hello Kitty",
-"description": "Hello Kitty Coloring Pages offer printable coloring pages featuring character themes designed for creative coloring activity and recognition. Subjects include <a href='/?c=hello-kitty-my-melody'>My Melody</a>, <a href='/?c=hello-kitty-kuromi'>Kuromi</a>, <a href='/?c=hello-kitty-cinnamoroll'>Cinnamoroll</a>, bows, cupcakes, and balloons. Scenes place characters in bedrooms, parks, cafes, and city settings with playful everyday environments. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages. This category supports classroom activities, home art time, and creative practice focused on recognition, creativity, and fine motor skills."
+"id": "animals",
+"name": "Animals",
+"description": "Animals Coloring Pages provide printable coloring pages that introduce children to wildlife and familiar creatures through coloring sheets to print designed for creative exploration and animal recognition. Popular subjects include <a href='/?c=animals-cat'>cats</a>, <a href='/?c=animals-dog'>dogs</a>, <a href='/?c=animals-horse'>horses</a>, <a href='/?c=animals-lion'>lions</a>, <a href='/?c=animals-elephant'>elephants</a>, and <a href='/?c=animals-bunny'>bunnies</a>. Scenes appear across forests, farms, oceans, mountains, and grassy plains where animals live and move through natural habitats. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity supports classroom learning, home art time, and creative practice while helping children recognize animals and explore nature themed subjects."
 },
 {
-"id": "hello-kitty-cinnamoroll",
-"name": "Hello Kitty Cinnamoroll",
-"description": "Hello Kitty Cinnamoroll Coloring Pages offer printable coloring pages featuring character scenes designed for creative coloring activity and character recognition. Subjects include Hello Kitty, <a href='/?c=hello-kitty'>Hello Kitty Coloring Pages</a>, Cinnamoroll, clouds, desserts, and balloons. Scenes place characters in sky settings, cafes, bedrooms, and park environments with light and playful layouts. Pages range from simple outline drawings for younger children to detailed pages for older kids using easy coloring outlines. This category supports classroom activities and home art time focused on creativity and visual learning."
+"id": "animals-bunny",
+"name": "Animals Bunny",
+"description": "Bunny Coloring Pages provide printable coloring pages where children color small woodland animals using coloring sheets to print designed for relaxing creative play and animal recognition. Subjects include bunnies, rabbits, baby rabbits, fluffy rabbits, and hopping rabbits shown in playful animal poses. Scenes appear across gardens, meadows, forests, flower fields, and village yards where rabbits explore and hide among plants. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom activities, home art time, and creative learning."
 },
 {
-"id": "hello-kitty-kuromi",
-"name": "Hello Kitty Kuromi",
-"description": "Hello Kitty Kuromi Coloring Pages offer printable coloring pages featuring character scenes designed for creative coloring activity and visual recognition. Subjects include Hello Kitty, <a href='/?c=hello-kitty'>Hello Kitty Coloring Pages</a>, Kuromi, hearts, accessories, and toys. Scenes place characters in bedrooms, city streets, fantasy rooms, and party settings with expressive themed environments. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages. This category supports creative practice and home art time focused on expression and fine motor skills."
+"id": "animals-cat",
+"name": "Animals Cat",
+"description": "Cat Coloring Pages feature printable coloring pages that let children color playful pets and familiar household animals using coloring sheets to print designed for relaxing creative activity. Subjects include kittens, cats, tabby cats, fluffy cats, and sleepy cats shown in comfortable home environments and playful settings. Scenes appear across living rooms, gardens, cozy houses, villages, and sunny parks where cats explore and rest. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. This activity connects naturally with <a href='/?c=animals'>Animals Coloring Pages</a> and supports home art time, classroom practice, and early observation learning."
 },
 {
-"id": "hello-kitty-my-melody",
-"name": "Hello Kitty My Melody",
-"description": "Hello Kitty My Melody Coloring Pages offer printable coloring pages featuring character scenes designed for creative coloring activity and character recognition. Subjects include Hello Kitty, <a href='/?c=hello-kitty'>Hello Kitty Coloring Pages</a>, My Melody, bows, flowers, and sweets. Scenes place characters in bedrooms, gardens, cafes, and park settings with playful everyday environments. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs. This category supports home art time and classroom activities focused on recognition and creative practice."
+"id": "animals-dog",
+"name": "Animals Dog",
+"description": "Dog Coloring Pages feature printable coloring pages that introduce children to friendly pets through coloring sheets to print designed for creative animal themed activity. Subjects include puppies, dogs, shepherd dogs, fluffy dogs, and playful dogs shown in energetic poses and familiar outdoor moments. Scenes appear across parks, gardens, villages, farms, and open fields where dogs run, play, and explore their surroundings. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. This activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom activities, home art time, and creative practice."
+},
+{
+"id": "animals-elephant",
+"name": "Animals Elephant",
+"description": "Elephant Coloring Pages feature printable coloring pages that allow children to color large wildlife animals through coloring sheets to print designed for educational art activities. Subjects include elephants, baby elephants, African elephants, Asian elephants, and elephant family groups shown in natural wildlife poses. Scenes appear across jungles, rivers, savannas, forests, and watering holes where elephants walk, play, and gather. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom learning, home art time, and nature themed creative practice."
+},
+{
+"id": "animals-horse",
+"name": "Animals Horse",
+"description": "Horse Coloring Pages provide printable coloring pages where children explore graceful animals through coloring sheets to print designed for relaxing drawing practice and animal recognition. Subjects include horses, ponies, foals, riding horses, and farm horses shown in natural animal poses. Scenes appear across farms, grassy fields, countryside paths, villages, and open meadows where horses run and graze. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity links with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom learning, home art routines, and creative practice."
+},
+{
+"id": "animals-lion",
+"name": "Animals Lion",
+"description": "Lion Coloring Pages feature printable coloring pages that introduce children to powerful wild animals through coloring sheets to print focused on safari wildlife exploration. Subjects include lions, lion cubs, male lions with manes, resting lions, and playful cub groups shown in natural animal scenes. Scenes appear across savannas, grassy plains, rocky hills, open valleys, and warm sunset landscapes where lions live in pride groups. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom wildlife lessons, home art time, and creative exploration."
 },
 {
 "id": "barbie",
@@ -45,9 +60,239 @@
 "description": "Barbie Princess Coloring Pages offer printable coloring pages featuring royal themed characters designed for creative coloring activity and character recognition. Subjects include tiaras, gowns, castles, carriages, and magical pets shown with <a href='/?c=barbie'>Barbie Coloring Pages</a> characters in elegant settings. Scenes place characters in castles, gardens, ballrooms, and fantasy kingdoms with royal environments. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs. This category supports classroom activities, home art time, and creative practice focused on imagination, storytelling, and visual recognition."
 },
 {
+"id": "bluey",
+"name": "Bluey",
+"description": "Color Bluey printable coloring pages featuring characters such as Bluey, Bingo, Bandit, Chilli, and friends including family pets, classmates, and playful animals shown in homes, playgrounds, parks, and backyard scenes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom play activities and home art routines while coloring sheets to print encourage character recognition, visual focus, and early creative skill development through structured offline activity."
+},
+{
+"id": "crash-bandicoot",
+"name": "Crash Bandicoot",
+"description": "Color Crash Bandicoot printable coloring pages featuring characters such as Crash, Coco, Dr. Neo Cortex, Aku Aku, Uka Uka, and creatures including masks, jungle animals, and island figures shown in tropical jungles, temples, beaches, and adventure islands. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom craft sessions and home art routines while coloring sheets to print encourage character recognition, visual focus, and early creative skill development."
+},
+{
+"id": "dinosaur",
+"name": "Dinosaur",
+"description": "Color dinosaur printable coloring pages featuring creatures such as Tyrannosaurus, Triceratops, Stegosaurus, Velociraptor, Brachiosaurus, and prehistoric animals including Pteranodon, Ankylosaurus, Spinosaurus, and marine reptiles shown in jungles, volcano areas, swamps, and ancient landscapes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom science activities and home art routines while coloring sheets to print encourage species recognition, visual focus, and early learning through structured offline activity."
+},
+{
+"id": "dragon",
+"name": "Dragon",
+"description": "Color dragon printable coloring pages featuring creatures such as fire dragons, ice dragons, flying dragons, baby dragons, and fantasy animals including knights, princesses, wizards, and castle guardians shown in mountains, caves, castles, and enchanted landscapes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home craft routines while coloring sheets to print encourage creature recognition, visual focus, and early creative learning through structured offline activity."
+},
+{
+"id": "fnaf",
+"name": "FNAF",
+"description": "FNAF Coloring Pages offer printable coloring pages featuring animatronic characters from the Five Nights at Freddy’s universe designed for creative coloring activity and character recognition. Subjects include <a href='/?c=fnaf-freddy-fazbear'>Freddy Fazbear</a>, <a href='/?c=fnaf-bonnie'>Bonnie</a>, <a href='/?c=fnaf-chica'>Chica</a>, <a href='/?c=fnaf-foxy'>Foxy</a>, and <a href='/?c=fnaf-golden-freddy'>Golden Freddy</a>, along with security guards shown as recognizable figures from the game series. Scenes place these characters inside arcades, stages, pizzerias, security rooms, and indoor entertainment areas. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages that remain easy to color. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
+},
+{
+"id": "fnaf-bonnie",
+"name": "FNAF Bonnie",
+"description": "FNAF Bonnie Coloring Pages provide printable coloring pages featuring the animatronic rabbit character from the Five Nights at Freddy’s universe for character focused coloring activity. Subjects include Bonnie, electric guitars, stage microphones, arcade speakers, and security cameras shown alongside characters from <a href='/?c=fnaf'>FNAF Coloring Pages</a>. Scenes place Bonnie in pizzerias, music stages, backstage rooms, security halls, and indoor arcade areas inspired by the game environment. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs suitable for coloring. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
+},
+{
+"id": "fnaf-chica",
+"name": "FNAF Chica",
+"description": "FNAF Chica Coloring Pages provide printable coloring pages featuring the animatronic chicken character from the Five Nights at Freddy’s universe for character focused coloring activity. Subjects include Chica, pizza slices, cupcake mascots, party hats, and stage microphones shown alongside characters from <a href='/?c=fnaf'>FNAF Coloring Pages</a>. Scenes place Chica in pizzerias, party rooms, stage performances, security halls, and indoor arcade areas inspired by the game setting. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs suitable for coloring. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
+},
+{
+"id": "fnaf-foxy",
+"name": "FNAF Foxy",
+"description": "FNAF Foxy Coloring Pages provide printable coloring pages featuring the pirate themed animatronic fox from the Five Nights at Freddy’s universe for character focused coloring activity. Subjects include Foxy, pirate hooks, eyepatches, stage curtains, and treasure chests shown alongside characters from <a href='/?c=fnaf'>FNAF Coloring Pages</a>. Scenes place Foxy in pirate cove stages, pizzerias, backstage rooms, security halls, and indoor arcade areas inspired by the game setting. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs suitable for coloring. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
+},
+{
+"id": "fnaf-freddy-fazbear",
+"name": "FNAF Freddy Fazbear",
+"description": "FNAF Freddy Fazbear Coloring Pages provide printable coloring pages featuring the famous animatronic bear from the Five Nights at Freddy’s universe for character focused coloring activity. Subjects include Freddy Fazbear, microphones, stage curtains, pizza boxes, and arcade speakers shown alongside characters from <a href='/?c=fnaf'>FNAF Coloring Pages</a>. Scenes place Freddy in pizzerias, stage performances, security rooms, party halls, and indoor arcade areas inspired by the game setting. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs suitable for coloring. This category supports home art time, classroom activities, and creative practice built around recognizable game characters."
+},
+{
+"id": "fnaf-golden-freddy",
+"name": "FNAF Golden Freddy",
+"description": "FNAF Golden Freddy Coloring Pages feature printable coloring pages centered on the golden animatronic character from the Five Nights at Freddy’s universe. These pages highlight Golden Freddy as a recognizable bear animatronic often shown holding a microphone, posing for a performance, or standing inside entertainment areas inspired by the game setting. Scenes include stage platforms, decorated party rooms, arcade areas, and indoor performance spaces designed for clear printable outlines and easy coloring. Kids can color Golden Freddy in different poses and activity scenes while recognizing one of the well-known characters from the series. For more animatronic characters and printable scenes, explore the full <a href='/?c=fnaf'>FNAF Coloring Pages</a> collection."
+},
+{
+"id": "fortnite",
+"name": "Fortnite",
+"description": "Color Fortnite printable coloring pages featuring characters such as battle heroes, island explorers, armored warriors, builders, and figures including robots, mascots, creatures, and themed outfits shown in battle maps, towns, forests, and fantasy landscapes. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home activity time while coloring sheets to print encourage character recognition, visual focus, and early creative skill development through structured offline play."
+},
+{
+"id": "frozen",
+"name": "Frozen",
+"description": "Color Frozen printable coloring pages featuring characters such as Elsa, Anna, Olaf, Kristoff, Sven, and figures including snow creatures, royal guards, and winter animals shown in ice castles, snowy forests, mountain villages, and magical landscapes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline activity."
+},
+{
+"id": "hello-kitty",
+"name": "Hello Kitty",
+"description": "Hello Kitty Coloring Pages offer printable coloring pages featuring character themes designed for creative coloring activity and recognition. Subjects include <a href='/?c=hello-kitty-my-melody'>My Melody</a>, <a href='/?c=hello-kitty-kuromi'>Kuromi</a>, <a href='/?c=hello-kitty-cinnamoroll'>Cinnamoroll</a>, bows, cupcakes, and balloons. Scenes place characters in bedrooms, parks, cafes, and city settings with playful everyday environments. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages. This category supports classroom activities, home art time, and creative practice focused on recognition, creativity, and fine motor skills."
+},
+{
+"id": "hello-kitty-cinnamoroll",
+"name": "Hello Kitty Cinnamoroll",
+"description": "Hello Kitty Cinnamoroll Coloring Pages offer printable coloring pages featuring character scenes designed for creative coloring activity and character recognition. Subjects include Hello Kitty, <a href='/?c=hello-kitty'>Hello Kitty Coloring Pages</a>, Cinnamoroll, clouds, desserts, and balloons. Scenes place characters in sky settings, cafes, bedrooms, and park environments with light and playful layouts. Pages range from simple outline drawings for younger children to detailed pages for older kids using easy coloring outlines. This category supports classroom activities and home art time focused on creativity and visual learning."
+},
+{
+"id": "hello-kitty-kuromi",
+"name": "Hello Kitty Kuromi",
+"description": "Hello Kitty Kuromi Coloring Pages offer printable coloring pages featuring character scenes designed for creative coloring activity and visual recognition. Subjects include Hello Kitty, <a href='/?c=hello-kitty'>Hello Kitty Coloring Pages</a>, Kuromi, hearts, accessories, and toys. Scenes place characters in bedrooms, city streets, fantasy rooms, and party settings with expressive themed environments. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages. This category supports creative practice and home art time focused on expression and fine motor skills."
+},
+{
+"id": "hello-kitty-my-melody",
+"name": "Hello Kitty My Melody",
+"description": "Hello Kitty My Melody Coloring Pages offer printable coloring pages featuring character scenes designed for creative coloring activity and character recognition. Subjects include Hello Kitty, <a href='/?c=hello-kitty'>Hello Kitty Coloring Pages</a>, My Melody, bows, flowers, and sweets. Scenes place characters in bedrooms, gardens, cafes, and park settings with playful everyday environments. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs. This category supports home art time and classroom activities focused on recognition and creative practice."
+},
+{
+"id": "mario",
+"name": "Mario",
+"description": "Mario Coloring Pages feature printable coloring pages inspired by popular characters from the Mario universe designed for kids who enjoy character based coloring activities. Children can color characters like <a href='/?c=mario-luigi'>Luigi</a>, <a href='/?c=mario-princess-peach'>Princess Peach</a>, <a href='/?c=mario-yoshi'>Yoshi</a>, <a href='/?c=mario-bowser'>Bowser</a>, and <a href='/?c=mario-toad'>Toad</a> while exploring familiar character designs from classic platform adventures. Scenes appear across mushroom kingdoms, castle courtyards, grassy hills, underground tunnels, and colorful villages that resemble worlds from Mario themed games. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+},
+{
+"id": "mario-bowser",
+"name": "Mario Bowser",
+"description": "Mario Bowser Coloring Pages present printable coloring pages featuring Bowser for kids who enjoy villain themed character coloring activities. Children can color Bowser with spiked shells, fire breath, castle towers, lava pits, and powerful poses inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes show Bowser inside fortress castles, volcanic landscapes, dungeon corridors, rocky mountains, and battle arenas across the Mario world. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+},
+{
+"id": "mario-luigi",
+"name": "Mario Luigi",
+"description": "Mario Luigi Coloring Pages offer printable coloring pages featuring Luigi from the Mario universe for kids who enjoy character themed coloring activities. Children can color Luigi in scenes with mushrooms, pipes, coins, castles, and adventure gear inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Illustrations show Luigi exploring grassy hills, underground tunnels, castle corridors, and village paths across the Mushroom Kingdom. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+},
+{
+"id": "mario-princess-peach",
+"name": "Mario Princess Peach",
+"description": "Mario Princess Peach Coloring Pages provide printable coloring pages featuring Princess Peach from the Mario universe for kids who enjoy character themed coloring activities. Children can color Princess Peach with crowns, castles, royal dresses, mushrooms, and friendly companions inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes appear in castle gardens, royal halls, bright villages, grassy fields, and magical kingdom settings connected to Peach adventures. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+},
+{
+"id": "mario-toad",
+"name": "Mario Toad",
+"description": "Mario Toad Coloring Pages include printable coloring pages featuring Toad from the Mario universe designed for kids who enjoy character themed coloring activities. Children can color Toad with mushroom caps, treasure chests, coins, lanterns, and adventure gear inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes appear in mushroom villages, castle halls, grassy fields, colorful markets, and underground passages from the Mushroom Kingdom. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+},
+{
+"id": "mario-yoshi",
+"name": "Mario Yoshi",
+"description": "Mario Yoshi Coloring Pages feature printable coloring pages showing Yoshi in playful adventures for kids who enjoy character themed coloring activities. Children can color Yoshi with eggs, mushrooms, fruits, clouds, and friendly companions inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes appear across grassy hills, jungle paths, island beaches, colorful villages, and sky platforms found in Mario adventures. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+},
+{
+"id": "minecraft",
+"name": "Minecraft",
+"description": "Minecraft Coloring Pages let kids enjoy block inspired characters and worlds through printable coloring pages designed for creative offline activity. The collection features <a href='/?c=minecraft-steve'>Steve</a>, <a href='/?c=minecraft-alex'>Alex</a>, <a href='/?c=minecraft-creeper'>creeper</a>, <a href='/?c=minecraft-enderman'>enderman</a>, and <a href='/?c=minecraft-zombie'>zombie</a> characters shown in block style scenes. Scenes appear in forests, caves, villages, and mountain landscapes that reflect recognizable environments from the Minecraft universe. Pages include simple outline drawings for younger children and detailed pages for older kids using bold line art pages suited for clear coloring. The pages support classroom activities, home art time, and creative practice while encouraging visual recognition and imaginative exploration."
+},
+{
+"id": "minecraft-alex",
+"name": "Minecraft Alex",
+"description": "Minecraft Alex Coloring Pages feature printable coloring pages showing the adventurous character exploring block worlds through creative coloring activities. Illustrations include Alex mining resources, building structures, exploring caves, farming crops, and interacting with animals across scenes inspired by the Minecraft universe. Environments appear in forests, villages, mountains, farms, and underground caves similar to areas seen in <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. The pages support classroom activities, home art time, and creative practice while helping build concentration, visual recognition, and early art skills."
+},
+{
+"id": "minecraft-creeper",
+"name": "Minecraft Creeper",
+"description": "Minecraft Creeper Coloring Pages present printable coloring pages featuring the iconic green creature appearing in block style adventures and playful scenes. Illustrations include creepers standing in forests, wandering near villages, hiding beside trees, approaching caves, and appearing during nighttime exploration inspired by <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Scenes appear across forests, caves, villages, mountains, and open landscapes that resemble familiar environments from the Minecraft world. Pages include simple outline drawings for younger children and detailed pages for older kids using bold line art pages designed for clear coloring. These pages support classroom activities, home art time, and creative practice while encouraging visual recognition and creative focus."
+},
+{
+"id": "minecraft-enderman",
+"name": "Minecraft Enderman",
+"description": "Minecraft Enderman Coloring Pages feature printable coloring pages showing the tall mysterious creature from block worlds in creative coloring activities. Illustrations include endermen standing in forests, carrying blocks, appearing near villages, exploring caves, and walking across nighttime landscapes inspired by <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Scenes appear in forests, caves, villages, mountains, and open plains that resemble environments from the Minecraft universe. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. These pages support classroom activities, home art time, and creative practice while helping develop observation skills and creative focus."
+},
+{
+"id": "minecraft-skeleton",
+"name": "Minecraft Skeleton",
+"description": "Minecraft Skeleton Coloring Pages feature printable coloring pages showing the block style archer appearing in creative Minecraft themed coloring activities. Illustrations include skeletons holding bows, standing in forests, guarding caves, wandering near villages, and appearing in nighttime scenes inspired by <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Scenes appear across forests, caves, villages, mountains, and open plains that resemble recognizable Minecraft environments. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. These pages support classroom activities, home art time, and creative practice while encouraging visual recognition and focused coloring skills."
+},
+{
+"id": "minecraft-steve",
+"name": "Minecraft Steve",
+"description": "Minecraft Steve Coloring Pages offer printable coloring pages featuring the iconic block explorer in creative offline art activities. Illustrations show Steve holding tools, building structures, mining blocks, exploring caves, and interacting with creatures across scenes inspired by the Minecraft universe. Settings include forests, villages, underground caves, mountains, and open landscapes that reflect familiar block worlds from <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. These pages support classroom activities, home art time, and creative practice while helping develop focus, recognition skills, and early artistic confidence."
+},
+{
+"id": "minecraft-zombie",
+"name": "Minecraft Zombie",
+"description": "Minecraft Zombie Coloring Pages feature printable coloring pages showing the block style creature appearing in adventurous Minecraft themed scenes. Illustrations include zombies walking through forests, approaching villages, standing near caves, exploring dark landscapes, and wandering across block fields inspired by <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Scenes appear in forests, caves, villages, mountains, and nighttime plains that resemble recognizable Minecraft environments. Pages include simple outline drawings for younger children and detailed pages for older kids using bold line art pages designed for clear coloring. These pages support classroom activities, home art time, and creative practice while encouraging imagination, visual recognition, and focused coloring skills."
+},
+{
+"id": "pokemon",
+"name": "Pokemon",
+"description": "Pokemon Coloring Pages provide printable coloring pages featuring characters and creatures from the Pokemon universe, designed for creative coloring activities at home or in classrooms. Characters include <a href='/?c=pokemon-pikachu'>Pikachu</a>, <a href='/?c=pokemon-charmander'>Charmander</a>, <a href='/?c=pokemon-bulbasaur'>Bulbasaur</a>, <a href='/?c=pokemon-squirtle'>Squirtle</a>, and <a href='/?c=pokemon-eevee'>Eevee</a> shown in playful poses across forests, grassy fields, training arenas, towns, and mountain paths. Environments place characters in adventure settings that reflect exploration and discovery across different regions. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+},
+{
+"id": "pokemon-bulbasaur",
+"name": "Pokemon Bulbasaur",
+"description": "Bulbasaur Pokemon Coloring Pages feature printable coloring pages showing Bulbasaur in friendly poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Bulbasaur, pokeballs, trainers, flowers, and forest plants across gardens and grassy landscapes. Scenes place characters exploring nature environments that reflect growth and adventure themes from the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+},
+{
+"id": "pokemon-charmander",
+"name": "Pokemon Charmander",
+"description": "Charmander Pokemon Coloring Pages feature printable coloring pages showing Charmander in adventurous poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Charmander, pokeballs, trainers, campfires, and rocky landscapes across forests and mountain paths. Scenes place characters exploring outdoor environments that reflect training journeys and discovery themes from the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+},
+{
+"id": "pokemon-eevee",
+"name": "Pokemon Eevee",
+"description": "Eevee Pokemon Coloring Pages feature printable coloring pages showing Eevee in expressive poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Eevee, pokeballs, trainers, forest paths, and village scenes across fields and woodland areas. Scenes place characters exploring natural environments that reflect curiosity and discovery from the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+},
+{
+"id": "pokemon-pikachu",
+"name": "Pokemon Pikachu",
+"description": "Pikachu Pokemon Coloring Pages feature printable coloring pages showing Pikachu in energetic poses suitable for creative activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present characters, pokeballs, trainers, forests, and electric themed scenes across open fields and villages. Scenes place Pikachu exploring grassy landscapes and friendly adventure locations that reflect the playful spirit of the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+},
+{
+"id": "pokemon-squirtle",
+"name": "Pokemon Squirtle",
+"description": "Squirtle Pokemon Coloring Pages feature printable coloring pages showing Squirtle in playful poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Squirtle, pokeballs, trainers, waves, and beach scenes across oceans and island shores. Scenes place characters exploring water themed environments that reflect adventure and exploration across coastal settings. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
+},
+{
+"id": "princess",
+"name": "Princess",
+"description": "Princess Coloring Pages provide printable coloring pages featuring royal characters and fantasy figures designed for creative coloring activity and visual recognition. Subjects include Cinderella, Ariel, Elsa, <a href='/?c=princess-rapunzel'>Rapunzel</a>, and Belle shown alongside crowns, castles, animals, and magical companions. Scenes place characters in castles, forests, gardens, and villages with varied visual settings. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages. This category supports classroom activities and home art time while encouraging creativity, focus, and early learning."
+},
+{
+"id": "princess-rapunzel",
+"name": "Princess Rapunzel",
+"description": "Princess Rapunzel Coloring Pages offer printable coloring pages featuring the long-haired princess from the Tangled story designed for creative coloring activity and character recognition. Subjects include Rapunzel with her long flowing hair, Pascal the chameleon, and royal scenes connected to <a href='/?c=princess'>Princess Coloring Pages</a> and castle or forest environments. Scenes place Rapunzel in towers, gardens, pathways, and storybook settings with simple compositions suitable for kids. Pages range from easy outline drawings for younger children to more detailed pages for older kids using bold line art that remains clear and easy to color. This category supports home art time, classroom activities, and creative practice focused on a well-known princess character."
+},
+{
+"id": "roblox",
+"name": "Roblox",
+"description": "Color Roblox printable coloring pages featuring characters such as block avatars, builders, explorers, racers, and figures including pets, robots, warriors, and fantasy heroes shown in city maps, obstacle courses, adventure islands, and virtual worlds. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom activities and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline art time."
+},
+{
+"id": "sonic",
+"name": "Sonic",
+"description": "Sonic Coloring Pages provide printable coloring pages featuring popular characters from the Sonic universe designed for kids who enjoy character based coloring activities. Children can color heroes like <a href='/?c=sonic-tails'>Tails</a>, <a href='/?c=sonic-knuckles'>Knuckles</a>, <a href='/?c=sonic-shadow'>Shadow</a>, <a href='/?c=sonic-amy'>Amy</a>, and <a href='/?c=sonic-silver'>Silver</a> while exploring well known character designs. Scenes appear across green hills, city zones, mechanical bases, racing tracks, and futuristic worlds that resemble environments from Sonic themed adventures. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clear black and white line art. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+},
+{
+"id": "sonic-amy",
+"name": "Sonic Amy",
+"description": "Sonic Amy Coloring Pages present printable coloring pages featuring the cheerful pink hedgehog character from the Sonic universe. Children can color Amy holding her hammer, Amy running, Amy smiling, Amy helping friends, and Amy exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Scenes include colorful towns, flower fields, park areas, adventure paths, and friendly village environments inspired by the Sonic world. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and creativity."
+},
+{
+"id": "sonic-knuckles",
+"name": "Sonic Knuckles",
+"description": "Sonic Knuckles Coloring Pages offer printable coloring pages featuring the strong echidna guardian known for his adventurous spirit. Children can color Knuckles climbing cliffs, Knuckles guarding treasure, Knuckles running through landscapes, Knuckles punching obstacles, and Knuckles exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Scenes appear across jungle islands, rocky mountains, ancient temples, caves, and adventure zones that match the character’s world. The pages include simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice centered on character themed coloring."
+},
+{
+"id": "sonic-shadow",
+"name": "Sonic Shadow",
+"description": "Sonic Shadow Coloring Pages feature printable coloring pages focused on the powerful rival character from the Sonic universe. Kids can color Shadow running, Shadow using energy powers, Shadow standing heroically, Shadow racing, and Shadow battling enemies while exploring scenes related to <a href='/?c=sonic'>Sonic Coloring Pages</a>. Backgrounds include futuristic cities, research labs, space stations, battle arenas, and night environments that highlight the character’s dramatic style. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clear black and white designs. These coloring sheets support classroom activities, home art time, and creative practice for fans who enjoy character focused coloring."
+},
+{
+"id": "sonic-silver",
+"name": "Sonic Silver",
+"description": "Sonic Silver Coloring Pages provide printable coloring pages showing the futuristic psychic hedgehog from the Sonic universe. Kids can color Silver using telekinesis, Silver running, Silver floating objects, Silver standing heroically, and Silver exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Environments include futuristic cities, space landscapes, crystal fields, energy zones, and adventure paths that match the character’s setting. The pages include simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice focused on imaginative character coloring."
+},
+{
+"id": "sonic-tails",
+"name": "Sonic Tails",
+"description": "Sonic Tails Coloring Pages include printable coloring pages featuring the clever fox companion from the Sonic universe. Kids can color Tails flying, Tails building gadgets, Tails piloting airplanes, Tails running beside friends, and Tails exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Environments include green hills, workshop labs, island landscapes, mechanical bases, and sky adventures that reflect familiar Sonic style locations. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
+},
+{
+"id": "spiderman",
+"name": "Spiderman",
+"description": "Color Spiderman printable coloring pages featuring characters such as Spider Man, Miles Morales, Gwen Stacy, villains, and figures including city heroes, masked allies, and comic creatures shown in skyscrapers, rooftops, streets, and action scenes. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art activities and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline play."
+},
+{
 "id": "spongebob",
 "name": "SpongeBob",
 "description": "SpongeBob Coloring Pages provide printable coloring pages featuring underwater cartoon characters designed for creative coloring activity and character recognition. Subjects include SpongeBob, <a href='/?c=spongebob-patrick-star'>Patrick Star</a>, <a href='/?c=spongebob-squidward'>Squidward</a>, <a href='/?c=spongebob-gary'>Gary</a>, and jellyfish shown as recognizable figures from the series. Scenes place characters in oceans, sandy seafloors, Bikini Bottom streets, and indoor homes with familiar settings from the show. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports classroom activities, home art time, and creative practice focused on character recognition and visual learning."
+},
+{
+"id": "spongebob-gary",
+"name": "SpongeBob Gary",
+"description": "SpongeBob Gary Coloring Pages feature printable coloring pages focused on a pet snail character designed for creative coloring activity and character recognition. Subjects include Gary, shells, food bowls, small furniture, and bubbles shown as recognizable elements from the series. Scenes place the character in indoor homes, ocean floors, Bikini Bottom streets, and simple room settings connected to <a href='/?c=spongebob'>SpongeBob Coloring Pages</a>. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports home art time and learning activities."
 },
 {
 "id": "spongebob-patrick-star",
@@ -60,19 +305,19 @@
 "description": "SpongeBob Squidward Coloring Pages feature printable coloring pages centered on a cartoon octopus character designed for creative coloring activity and character recognition. Subjects include Squidward, clarinets, easels, paintings, and house interiors shown as recognizable elements from the series. Scenes place the character in indoor rooms, Bikini Bottom streets, art spaces, and ocean environments connected to <a href='/?c=spongebob'>SpongeBob Coloring Pages</a>. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports classroom activities and creative practice."
 },
 {
-"id": "spongebob-gary",
-"name": "SpongeBob Gary",
-"description": "SpongeBob Gary Coloring Pages feature printable coloring pages focused on a pet snail character designed for creative coloring activity and character recognition. Subjects include Gary, shells, food bowls, small furniture, and bubbles shown as recognizable elements from the series. Scenes place the character in indoor homes, ocean floors, Bikini Bottom streets, and simple room settings connected to <a href='/?c=spongebob'>SpongeBob Coloring Pages</a>. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports home art time and learning activities."
+"id": "stitch",
+"name": "Stitch",
+"description": "Color Stitch printable coloring pages featuring characters such as Stitch, Lilo, Angel, Jumba, Pleakley, and figures including alien friends, beach animals, and island companions shown in tropical beaches, homes, parks, and ocean scenes. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom craft sessions and home art routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline activity."
 },
 {
-"id": "princess",
-"name": "Princess",
-"description": "Princess Coloring Pages provide printable coloring pages featuring royal characters and fantasy figures designed for creative coloring activity and visual recognition. Subjects include Cinderella, Ariel, Elsa, <a href='/?c=princess-rapunzel'>Rapunzel</a>, and Belle shown alongside crowns, castles, animals, and magical companions. Scenes place characters in castles, forests, gardens, and villages with varied visual settings. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages. This category supports classroom activities and home art time while encouraging creativity, focus, and early learning."
+"id": "unicorn",
+"name": "Unicorn",
+"description": "Color unicorn printable coloring pages featuring creatures such as winged unicorns, baby unicorns, rainbow unicorns, royal unicorns, and fantasy animals including fairies, princesses, dragons, and magical companions shown in enchanted forests, cloud kingdoms, castles, and dream landscapes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline activity."
 },
 {
-"id": "princess-rapunzel",
-"name": "Princess Rapunzel",
-"description": "Princess Rapunzel Coloring Pages offer printable coloring pages featuring the long-haired princess from the Tangled story designed for creative coloring activity and character recognition. Subjects include Rapunzel with her long flowing hair, Pascal the chameleon, and royal scenes connected to <a href='/?c=princess'>Princess Coloring Pages</a> and castle or forest environments. Scenes place Rapunzel in towers, gardens, pathways, and storybook settings with simple compositions suitable for kids. Pages range from easy outline drawings for younger children to more detailed pages for older kids using bold line art that remains clear and easy to color. This category supports home art time, classroom activities, and creative practice focused on a well-known princess character."
+"id": "vehicles",
+"name": "Vehicles",
+"description": "Color vehicle printable coloring pages featuring transport types such as cars, trucks, buses, trains, airplanes, and machines including tractors, motorcycles, fire engines, ambulances, and construction vehicles shown in cities, roads, airports, farms, and work sites. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom transport lessons and home art routines while coloring sheets to print encourage object recognition, visual focus, and early learning through structured offline activity."
 },
 {
 "id": "zootopia",
@@ -93,251 +338,6 @@
 "id": "zootopia-flash",
 "name": "Zootopia Flash",
 "description": "Zootopia Flash Coloring Pages provide printable coloring pages featuring the slow-moving sloth character from Zootopia designed for fun character-based coloring activity. Illustrations include Flash, DMV workers, office desks, computer stations, and queue lines shown in recognizable scenes from the film. Scenes place Flash inside city offices, DMV interiors, urban workplaces, and indoor service areas that reflect everyday environments. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for easy coloring. This category supports classroom activities, home art time, and creative practice while connecting to <a href='/?c=zootopia'>Zootopia Coloring Pages</a> for more printable options."
-},
-{
-"id": "fnaf",
-"name": "FNAF",
-"description": "FNAF Coloring Pages offer printable coloring pages featuring animatronic characters from the Five Nights at Freddy’s universe designed for creative coloring activity and character recognition. Subjects include <a href='/?c=fnaf-freddy-fazbear'>Freddy Fazbear</a>, <a href='/?c=fnaf-bonnie'>Bonnie</a>, <a href='/?c=fnaf-chica'>Chica</a>, <a href='/?c=fnaf-foxy'>Foxy</a>, and <a href='/?c=fnaf-golden-freddy'>Golden Freddy</a>, along with security guards shown as recognizable figures from the game series. Scenes place these characters inside arcades, stages, pizzerias, security rooms, and indoor entertainment areas. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages that remain easy to color. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
-},
-{
-"id": "fnaf-freddy-fazbear",
-"name": "FNAF Freddy Fazbear",
-"description": "FNAF Freddy Fazbear Coloring Pages provide printable coloring pages featuring the famous animatronic bear from the Five Nights at Freddy’s universe for character focused coloring activity. Subjects include Freddy Fazbear, microphones, stage curtains, pizza boxes, and arcade speakers shown alongside characters from <a href='/?c=fnaf'>FNAF Coloring Pages</a>. Scenes place Freddy in pizzerias, stage performances, security rooms, party halls, and indoor arcade areas inspired by the game setting. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs suitable for coloring. This category supports home art time, classroom activities, and creative practice built around recognizable game characters."
-},
-{
-"id": "fnaf-golden-freddy",
-"name": "FNAF Golden Freddy",
-"description": "FNAF Golden Freddy Coloring Pages feature printable coloring pages centered on the golden animatronic character from the Five Nights at Freddy’s universe. These pages highlight Golden Freddy as a recognizable bear animatronic often shown holding a microphone, posing for a performance, or standing inside entertainment areas inspired by the game setting. Scenes include stage platforms, decorated party rooms, arcade areas, and indoor performance spaces designed for clear printable outlines and easy coloring. Kids can color Golden Freddy in different poses and activity scenes while recognizing one of the well-known characters from the series. For more animatronic characters and printable scenes, explore the full <a href='/?c=fnaf'>FNAF Coloring Pages</a> collection."
-},
-{
-"id": "mario",
-"name": "Mario",
-"description": "Mario Coloring Pages feature printable coloring pages inspired by popular characters from the Mario universe designed for kids who enjoy character based coloring activities. Children can color characters like <a href='/?c=mario-luigi'>Luigi</a>, <a href='/?c=mario-princess-peach'>Princess Peach</a>, <a href='/?c=mario-yoshi'>Yoshi</a>, <a href='/?c=mario-bowser'>Bowser</a>, and <a href='/?c=mario-toad'>Toad</a> while exploring familiar character designs from classic platform adventures. Scenes appear across mushroom kingdoms, castle courtyards, grassy hills, underground tunnels, and colorful villages that resemble worlds from Mario themed games. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
-},
-{
-"id": "mario-luigi",
-"name": "Mario Luigi",
-"description": "Mario Luigi Coloring Pages offer printable coloring pages featuring Luigi from the Mario universe for kids who enjoy character themed coloring activities. Children can color Luigi in scenes with mushrooms, pipes, coins, castles, and adventure gear inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Illustrations show Luigi exploring grassy hills, underground tunnels, castle corridors, and village paths across the Mushroom Kingdom. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
-},
-{
-"id": "mario-princess-peach",
-"name": "Mario Princess Peach",
-"description": "Mario Princess Peach Coloring Pages provide printable coloring pages featuring Princess Peach from the Mario universe for kids who enjoy character themed coloring activities. Children can color Princess Peach with crowns, castles, royal dresses, mushrooms, and friendly companions inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes appear in castle gardens, royal halls, bright villages, grassy fields, and magical kingdom settings connected to Peach adventures. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
-},
-{
-"id": "mario-yoshi",
-"name": "Mario Yoshi",
-"description": "Mario Yoshi Coloring Pages feature printable coloring pages showing Yoshi in playful adventures for kids who enjoy character themed coloring activities. Children can color Yoshi with eggs, mushrooms, fruits, clouds, and friendly companions inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes appear across grassy hills, jungle paths, island beaches, colorful villages, and sky platforms found in Mario adventures. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
-},
-{
-"id": "mario-bowser",
-"name": "Mario Bowser",
-"description": "Mario Bowser Coloring Pages present printable coloring pages featuring Bowser for kids who enjoy villain themed character coloring activities. Children can color Bowser with spiked shells, fire breath, castle towers, lava pits, and powerful poses inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes show Bowser inside fortress castles, volcanic landscapes, dungeon corridors, rocky mountains, and battle arenas across the Mario world. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
-},
-{
-"id": "mario-toad",
-"name": "Mario Toad",
-"description": "Mario Toad Coloring Pages include printable coloring pages featuring Toad from the Mario universe designed for kids who enjoy character themed coloring activities. Children can color Toad with mushroom caps, treasure chests, coins, lanterns, and adventure gear inspired by <a href='/?c=mario'>Mario Coloring Pages</a>. Scenes appear in mushroom villages, castle halls, grassy fields, colorful markets, and underground passages from the Mushroom Kingdom. The collection includes simple outline drawings for younger children and more detailed pages for older kids presented as clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
-},
-{
-"id": "sonic",
-"name": "Sonic",
-"description": "Sonic Coloring Pages provide printable coloring pages featuring popular characters from the Sonic universe designed for kids who enjoy character based coloring activities. Children can color heroes like <a href='/?c=sonic-tails'>Tails</a>, <a href='/?c=sonic-knuckles'>Knuckles</a>, <a href='/?c=sonic-shadow'>Shadow</a>, <a href='/?c=sonic-amy'>Amy</a>, and <a href='/?c=sonic-silver'>Silver</a> while exploring well known character designs. Scenes appear across green hills, city zones, mechanical bases, racing tracks, and futuristic worlds that resemble environments from Sonic themed adventures. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clear black and white line art. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
-},
-{
-"id": "sonic-tails",
-"name": "Sonic Tails",
-"description": "Sonic Tails Coloring Pages include printable coloring pages featuring the clever fox companion from the Sonic universe. Kids can color Tails flying, Tails building gadgets, Tails piloting airplanes, Tails running beside friends, and Tails exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Environments include green hills, workshop labs, island landscapes, mechanical bases, and sky adventures that reflect familiar Sonic style locations. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and coloring skills."
-},
-{
-"id": "sonic-knuckles",
-"name": "Sonic Knuckles",
-"description": "Sonic Knuckles Coloring Pages offer printable coloring pages featuring the strong echidna guardian known for his adventurous spirit. Children can color Knuckles climbing cliffs, Knuckles guarding treasure, Knuckles running through landscapes, Knuckles punching obstacles, and Knuckles exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Scenes appear across jungle islands, rocky mountains, ancient temples, caves, and adventure zones that match the character’s world. The pages include simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice centered on character themed coloring."
-},
-{
-"id": "sonic-amy",
-"name": "Sonic Amy",
-"description": "Sonic Amy Coloring Pages present printable coloring pages featuring the cheerful pink hedgehog character from the Sonic universe. Children can color Amy holding her hammer, Amy running, Amy smiling, Amy helping friends, and Amy exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Scenes include colorful towns, flower fields, park areas, adventure paths, and friendly village environments inspired by the Sonic world. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clean black and white designs. These coloring sheets support classroom activities, home art time, and creative practice focused on character recognition and creativity."
-},
-{
-"id": "sonic-silver",
-"name": "Sonic Silver",
-"description": "Sonic Silver Coloring Pages provide printable coloring pages showing the futuristic psychic hedgehog from the Sonic universe. Kids can color Silver using telekinesis, Silver running, Silver floating objects, Silver standing heroically, and Silver exploring while enjoying scenes connected with <a href='/?c=sonic'>Sonic Coloring Pages</a>. Environments include futuristic cities, space landscapes, crystal fields, energy zones, and adventure paths that match the character’s setting. The pages include simple outline drawings for younger children and more detailed pages for older kids presented as bold line art pages. These coloring sheets support classroom activities, home art time, and creative practice focused on imaginative character coloring."
-},
-{
-"id": "sonic-shadow",
-"name": "Sonic Shadow",
-"description": "Sonic Shadow Coloring Pages feature printable coloring pages focused on the powerful rival character from the Sonic universe. Kids can color Shadow running, Shadow using energy powers, Shadow standing heroically, Shadow racing, and Shadow battling enemies while exploring scenes related to <a href='/?c=sonic'>Sonic Coloring Pages</a>. Backgrounds include futuristic cities, research labs, space stations, battle arenas, and night environments that highlight the character’s dramatic style. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clear black and white designs. These coloring sheets support classroom activities, home art time, and creative practice for fans who enjoy character focused coloring."
-},
-{
-"id": "pokemon",
-"name": "Pokemon",
-"description": "Pokemon Coloring Pages provide printable coloring pages featuring characters and creatures from the Pokemon universe, designed for creative coloring activities at home or in classrooms. Characters include <a href='/?c=pokemon-pikachu'>Pikachu</a>, <a href='/?c=pokemon-charmander'>Charmander</a>, <a href='/?c=pokemon-bulbasaur'>Bulbasaur</a>, <a href='/?c=pokemon-squirtle'>Squirtle</a>, and <a href='/?c=pokemon-eevee'>Eevee</a> shown in playful poses across forests, grassy fields, training arenas, towns, and mountain paths. Environments place characters in adventure settings that reflect exploration and discovery across different regions. The collection includes simple outline drawings for younger children and more detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
-},
-{
-"id": "pokemon-pikachu",
-"name": "Pokemon Pikachu",
-"description": "Pikachu Pokemon Coloring Pages feature printable coloring pages showing Pikachu in energetic poses suitable for creative activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present characters, pokeballs, trainers, forests, and electric themed scenes across open fields and villages. Scenes place Pikachu exploring grassy landscapes and friendly adventure locations that reflect the playful spirit of the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
-},
-{
-"id": "pokemon-charmander",
-"name": "Pokemon Charmander",
-"description": "Charmander Pokemon Coloring Pages feature printable coloring pages showing Charmander in adventurous poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Charmander, pokeballs, trainers, campfires, and rocky landscapes across forests and mountain paths. Scenes place characters exploring outdoor environments that reflect training journeys and discovery themes from the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
-},
-{
-"id": "pokemon-bulbasaur",
-"name": "Pokemon Bulbasaur",
-"description": "Bulbasaur Pokemon Coloring Pages feature printable coloring pages showing Bulbasaur in friendly poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Bulbasaur, pokeballs, trainers, flowers, and forest plants across gardens and grassy landscapes. Scenes place characters exploring nature environments that reflect growth and adventure themes from the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
-},
-{
-"id": "pokemon-squirtle",
-"name": "Pokemon Squirtle",
-"description": "Squirtle Pokemon Coloring Pages feature printable coloring pages showing Squirtle in playful poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Squirtle, pokeballs, trainers, waves, and beach scenes across oceans and island shores. Scenes place characters exploring water themed environments that reflect adventure and exploration across coastal settings. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
-},
-{
-"id": "pokemon-eevee",
-"name": "Pokemon Eevee",
-"description": "Eevee Pokemon Coloring Pages feature printable coloring pages showing Eevee in expressive poses suitable for creative coloring activities at home or school. These pages belong to the broader <a href='/?c=pokemon'>Pokemon Coloring Pages</a> collection and present Eevee, pokeballs, trainers, forest paths, and village scenes across fields and woodland areas. Scenes place characters exploring natural environments that reflect curiosity and discovery from the series. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. Pages support classroom activities, home art time, and creative practice for kids who enjoy character themed coloring."
-},
-{
-"id": "animals",
-"name": "Animals",
-"description": "Animals Coloring Pages provide printable coloring pages that introduce children to wildlife and familiar creatures through coloring sheets to print designed for creative exploration and animal recognition. Popular subjects include <a href='/?c=animals-cat'>cats</a>, <a href='/?c=animals-dog'>dogs</a>, <a href='/?c=animals-horse'>horses</a>, <a href='/?c=animals-lion'>lions</a>, <a href='/?c=animals-elephant'>elephants</a>, and <a href='/?c=animals-bunny'>bunnies</a>. Scenes appear across forests, farms, oceans, mountains, and grassy plains where animals live and move through natural habitats. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity supports classroom learning, home art time, and creative practice while helping children recognize animals and explore nature themed subjects."
-},
-{
-"id": "animals-cat",
-"name": "Animals Cat",
-"description": "Cat Coloring Pages feature printable coloring pages that let children color playful pets and familiar household animals using coloring sheets to print designed for relaxing creative activity. Subjects include kittens, cats, tabby cats, fluffy cats, and sleepy cats shown in comfortable home environments and playful settings. Scenes appear across living rooms, gardens, cozy houses, villages, and sunny parks where cats explore and rest. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. This activity connects naturally with <a href='/?c=animals'>Animals Coloring Pages</a> and supports home art time, classroom practice, and early observation learning."
-},
-{
-"id": "animals-dog",
-"name": "Animals Dog",
-"description": "Dog Coloring Pages feature printable coloring pages that introduce children to friendly pets through coloring sheets to print designed for creative animal themed activity. Subjects include puppies, dogs, shepherd dogs, fluffy dogs, and playful dogs shown in energetic poses and familiar outdoor moments. Scenes appear across parks, gardens, villages, farms, and open fields where dogs run, play, and explore their surroundings. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. This activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom activities, home art time, and creative practice."
-},
-{
-"id": "animals-bunny",
-"name": "Animals Bunny",
-"description": "Bunny Coloring Pages provide printable coloring pages where children color small woodland animals using coloring sheets to print designed for relaxing creative play and animal recognition. Subjects include bunnies, rabbits, baby rabbits, fluffy rabbits, and hopping rabbits shown in playful animal poses. Scenes appear across gardens, meadows, forests, flower fields, and village yards where rabbits explore and hide among plants. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom activities, home art time, and creative learning."
-},
-{
-"id": "animals-lion",
-"name": "Animals Lion",
-"description": "Lion Coloring Pages feature printable coloring pages that introduce children to powerful wild animals through coloring sheets to print focused on safari wildlife exploration. Subjects include lions, lion cubs, male lions with manes, resting lions, and playful cub groups shown in natural animal scenes. Scenes appear across savannas, grassy plains, rocky hills, open valleys, and warm sunset landscapes where lions live in pride groups. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom wildlife lessons, home art time, and creative exploration."
-},
-{
-"id": "animals-horse",
-"name": "Animals Horse",
-"description": "Horse Coloring Pages provide printable coloring pages where children explore graceful animals through coloring sheets to print designed for relaxing drawing practice and animal recognition. Subjects include horses, ponies, foals, riding horses, and farm horses shown in natural animal poses. Scenes appear across farms, grassy fields, countryside paths, villages, and open meadows where horses run and graze. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity links with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom learning, home art routines, and creative practice."
-},
-{
-"id": "animals-elephant",
-"name": "Animals Elephant",
-"description": "Elephant Coloring Pages feature printable coloring pages that allow children to color large wildlife animals through coloring sheets to print designed for educational art activities. Subjects include elephants, baby elephants, African elephants, Asian elephants, and elephant family groups shown in natural wildlife poses. Scenes appear across jungles, rivers, savannas, forests, and watering holes where elephants walk, play, and gather. Pages range from simple outline drawings for younger children to detailed pages for older kids using bold line art pages and clean black and white designs. The activity connects with <a href='/?c=animals'>Animals Coloring Pages</a> and supports classroom learning, home art time, and nature themed creative practice."
-},
-{
-"id": "fnaf-bonnie",
-"name": "FNAF Bonnie",
-"description": "FNAF Bonnie Coloring Pages provide printable coloring pages featuring the animatronic rabbit character from the Five Nights at Freddy’s universe for character focused coloring activity. Subjects include Bonnie, electric guitars, stage microphones, arcade speakers, and security cameras shown alongside characters from <a href='/?c=fnaf'>FNAF Coloring Pages</a>. Scenes place Bonnie in pizzerias, music stages, backstage rooms, security halls, and indoor arcade areas inspired by the game environment. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs suitable for coloring. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
-},
-{
-"id": "fnaf-chica",
-"name": "FNAF Chica",
-"description": "FNAF Chica Coloring Pages provide printable coloring pages featuring the animatronic chicken character from the Five Nights at Freddy’s universe for character focused coloring activity. Subjects include Chica, pizza slices, cupcake mascots, party hats, and stage microphones shown alongside characters from <a href='/?c=fnaf'>FNAF Coloring Pages</a>. Scenes place Chica in pizzerias, party rooms, stage performances, security halls, and indoor arcade areas inspired by the game setting. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs suitable for coloring. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
-},
-{
-"id": "fnaf-foxy",
-"name": "FNAF Foxy",
-"description": "FNAF Foxy Coloring Pages provide printable coloring pages featuring the pirate themed animatronic fox from the Five Nights at Freddy’s universe for character focused coloring activity. Subjects include Foxy, pirate hooks, eyepatches, stage curtains, and treasure chests shown alongside characters from <a href='/?c=fnaf'>FNAF Coloring Pages</a>. Scenes place Foxy in pirate cove stages, pizzerias, backstage rooms, security halls, and indoor arcade areas inspired by the game setting. Pages range from simple outline drawings for younger children to detailed pages for older kids using clean black and white designs suitable for coloring. This category supports home art time, classroom activities, and creative practice centered on recognizable game characters."
-},
-{
-"id": "minecraft",
-"name": "Minecraft",
-"description": "Minecraft Coloring Pages let kids enjoy block inspired characters and worlds through printable coloring pages designed for creative offline activity. The collection features <a href='/?c=minecraft-steve'>Steve</a>, <a href='/?c=minecraft-alex'>Alex</a>, <a href='/?c=minecraft-creeper'>creeper</a>, <a href='/?c=minecraft-enderman'>enderman</a>, and <a href='/?c=minecraft-zombie'>zombie</a> characters shown in block style scenes. Scenes appear in forests, caves, villages, and mountain landscapes that reflect recognizable environments from the Minecraft universe. Pages include simple outline drawings for younger children and detailed pages for older kids using bold line art pages suited for clear coloring. The pages support classroom activities, home art time, and creative practice while encouraging visual recognition and imaginative exploration."
-},
-{
-"id": "minecraft-steve",
-"name": "Minecraft Steve",
-"description": "Minecraft Steve Coloring Pages offer printable coloring pages featuring the iconic block explorer in creative offline art activities. Illustrations show Steve holding tools, building structures, mining blocks, exploring caves, and interacting with creatures across scenes inspired by the Minecraft universe. Settings include forests, villages, underground caves, mountains, and open landscapes that reflect familiar block worlds from <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. These pages support classroom activities, home art time, and creative practice while helping develop focus, recognition skills, and early artistic confidence."
-},
-{
-"id": "minecraft-alex",
-"name": "Minecraft Alex",
-"description": "Minecraft Alex Coloring Pages feature printable coloring pages showing the adventurous character exploring block worlds through creative coloring activities. Illustrations include Alex mining resources, building structures, exploring caves, farming crops, and interacting with animals across scenes inspired by the Minecraft universe. Environments appear in forests, villages, mountains, farms, and underground caves similar to areas seen in <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. The pages support classroom activities, home art time, and creative practice while helping build concentration, visual recognition, and early art skills."
-},
-{
-"id": "minecraft-creeper",
-"name": "Minecraft Creeper",
-"description": "Minecraft Creeper Coloring Pages present printable coloring pages featuring the iconic green creature appearing in block style adventures and playful scenes. Illustrations include creepers standing in forests, wandering near villages, hiding beside trees, approaching caves, and appearing during nighttime exploration inspired by <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Scenes appear across forests, caves, villages, mountains, and open landscapes that resemble familiar environments from the Minecraft world. Pages include simple outline drawings for younger children and detailed pages for older kids using bold line art pages designed for clear coloring. These pages support classroom activities, home art time, and creative practice while encouraging visual recognition and creative focus."
-},
-{
-"id": "minecraft-enderman",
-"name": "Minecraft Enderman",
-"description": "Minecraft Enderman Coloring Pages feature printable coloring pages showing the tall mysterious creature from block worlds in creative coloring activities. Illustrations include endermen standing in forests, carrying blocks, appearing near villages, exploring caves, and walking across nighttime landscapes inspired by <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Scenes appear in forests, caves, villages, mountains, and open plains that resemble environments from the Minecraft universe. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. These pages support classroom activities, home art time, and creative practice while helping develop observation skills and creative focus."
-},
-{
-"id": "minecraft-zombie",
-"name": "Minecraft Zombie",
-"description": "Minecraft Zombie Coloring Pages feature printable coloring pages showing the block style creature appearing in adventurous Minecraft themed scenes. Illustrations include zombies walking through forests, approaching villages, standing near caves, exploring dark landscapes, and wandering across block fields inspired by <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Scenes appear in forests, caves, villages, mountains, and nighttime plains that resemble recognizable Minecraft environments. Pages include simple outline drawings for younger children and detailed pages for older kids using bold line art pages designed for clear coloring. These pages support classroom activities, home art time, and creative practice while encouraging imagination, visual recognition, and focused coloring skills."
-},
-{
-"id": "minecraft-skeleton",
-"name": "Minecraft Skeleton",
-"description": "Minecraft Skeleton Coloring Pages feature printable coloring pages showing the block style archer appearing in creative Minecraft themed coloring activities. Illustrations include skeletons holding bows, standing in forests, guarding caves, wandering near villages, and appearing in nighttime scenes inspired by <a href='/?c=minecraft'>Minecraft Coloring Pages</a>. Scenes appear across forests, caves, villages, mountains, and open plains that resemble recognizable Minecraft environments. Pages include simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. These pages support classroom activities, home art time, and creative practice while encouraging visual recognition and focused coloring skills."
-},
-{
-"id": "crash-bandicoot",
-"name": "Crash Bandicoot",
-"description": "Color Crash Bandicoot printable coloring pages featuring characters such as Crash, Coco, Dr. Neo Cortex, Aku Aku, Uka Uka, and creatures including masks, jungle animals, and island figures shown in tropical jungles, temples, beaches, and adventure islands. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom craft sessions and home art routines while coloring sheets to print encourage character recognition, visual focus, and early creative skill development."
-},
-{
-"id": "roblox",
-"name": "Roblox",
-"description": "Color Roblox printable coloring pages featuring characters such as block avatars, builders, explorers, racers, and figures including pets, robots, warriors, and fantasy heroes shown in city maps, obstacle courses, adventure islands, and virtual worlds. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom activities and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline art time."
-},
-{
-"id": "fortnite",
-"name": "Fortnite",
-"description": "Color Fortnite printable coloring pages featuring characters such as battle heroes, island explorers, armored warriors, builders, and figures including robots, mascots, creatures, and themed outfits shown in battle maps, towns, forests, and fantasy landscapes. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home activity time while coloring sheets to print encourage character recognition, visual focus, and early creative skill development through structured offline play."
-},
-{
-"id": "spiderman",
-"name": "Spiderman",
-"description": "Color Spiderman printable coloring pages featuring characters such as Spider Man, Miles Morales, Gwen Stacy, villains, and figures including city heroes, masked allies, and comic creatures shown in skyscrapers, rooftops, streets, and action scenes. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art activities and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline play."
-},
-{
-"id": "stitch",
-"name": "Stitch",
-"description": "Color Stitch printable coloring pages featuring characters such as Stitch, Lilo, Angel, Jumba, Pleakley, and figures including alien friends, beach animals, and island companions shown in tropical beaches, homes, parks, and ocean scenes. Users explore bold line art pages and simple outline drawings across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom craft sessions and home art routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline activity."
-},
-{
-"id": "frozen",
-"name": "Frozen",
-"description": "Color Frozen printable coloring pages featuring characters such as Elsa, Anna, Olaf, Kristoff, Sven, and figures including snow creatures, royal guards, and winter animals shown in ice castles, snowy forests, mountain villages, and magical landscapes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline activity."
-},
-{
-"id": "bluey",
-"name": "Bluey",
-"description": "Color Bluey printable coloring pages featuring characters such as Bluey, Bingo, Bandit, Chilli, and friends including family pets, classmates, and playful animals shown in homes, playgrounds, parks, and backyard scenes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom play activities and home art routines while coloring sheets to print encourage character recognition, visual focus, and early creative skill development through structured offline activity."
-},
-{
-"id": "dinosaur",
-"name": "Dinosaur",
-"description": "Color dinosaur printable coloring pages featuring creatures such as Tyrannosaurus, Triceratops, Stegosaurus, Velociraptor, Brachiosaurus, and prehistoric animals including Pteranodon, Ankylosaurus, Spinosaurus, and marine reptiles shown in jungles, volcano areas, swamps, and ancient landscapes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom science activities and home art routines while coloring sheets to print encourage species recognition, visual focus, and early learning through structured offline activity."
-},
-{
-"id": "vehicles",
-"name": "Vehicles",
-"description": "Color vehicle printable coloring pages featuring transport types such as cars, trucks, buses, trains, airplanes, and machines including tractors, motorcycles, fire engines, ambulances, and construction vehicles shown in cities, roads, airports, farms, and work sites. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom transport lessons and home art routines while coloring sheets to print encourage object recognition, visual focus, and early learning through structured offline activity."
-},
-{
-"id": "unicorn",
-"name": "Unicorn",
-"description": "Color unicorn printable coloring pages featuring creatures such as winged unicorns, baby unicorns, rainbow unicorns, royal unicorns, and fantasy animals including fairies, princesses, dragons, and magical companions shown in enchanted forests, cloud kingdoms, castles, and dream landscapes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home craft routines while coloring sheets to print encourage character recognition, visual focus, and early creative learning through structured offline activity."
-},
-{
-"id": "dragon",
-"name": "Dragon",
-"description": "Color dragon printable coloring pages featuring creatures such as fire dragons, ice dragons, flying dragons, baby dragons, and fantasy animals including knights, princesses, wizards, and castle guardians shown in mountains, caves, castles, and enchanted landscapes. Users explore simple outline drawings and bold line art pages across easy coloring pages for toddlers and detailed coloring pages for older kids. These printable coloring pages support classroom art sessions and home craft routines while coloring sheets to print encourage creature recognition, visual focus, and early creative learning through structured offline activity."
 }
 ]
 }
