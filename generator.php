@@ -202,7 +202,7 @@ function gemini_generate_image(
   string $out_path,
   string $aspect_ratio = '2:3'
 ): array {
-  $model = 'gemini-2.5-flash-image';
+  $model = 'gemini-3.1-flash-image-preview';
   $url = 'https://generativelanguage.googleapis.com/v1beta/models/' . rawurlencode($model) . ':generateContent';
 
   $payload = [
