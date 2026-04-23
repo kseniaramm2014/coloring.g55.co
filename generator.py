@@ -509,7 +509,21 @@ class PromptGUI(tk.Tk):
         self.clipboard_clear()
         self.clipboard_append(self.prompt_vars[idx].get())
         self.update()
+
+        category_name = self.category_var.get().strip()
+        page = {
+            "id": self.id_vars[idx].get(),
+            "title": self.h1_vars[idx].get(),
+            "description": self.desc_vars[idx].get(),
+        }
+
+        added, skipped = prepend_unique_pages_to_category_json(category_name, [page])
         self.mark_row(idx)
+
+        messagebox.showinfo(
+            "Copied and Saved",
+            f"Prompt copied to clipboard.\nAdded: {added}\nSkipped duplicates: {skipped}\nFile: {category_name}.json",
+        )
 
     def save_one_to_json(self, idx):
         category_name = self.category_var.get().strip()
@@ -640,11 +654,6 @@ class PromptGUI(tk.Tk):
                 command=lambda idx=i: self.copy_prompt(idx),
             ).pack(side="top", fill="x", pady=(0, 6))
 
-            ttk.Button(
-                btns,
-                text="Save",
-                command=lambda idx=i: self.save_one_to_json(idx),
-            ).pack(side="top", fill="x")
 
             self.rows.append((card, indicator))
 
