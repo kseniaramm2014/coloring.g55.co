@@ -390,7 +390,7 @@ class PromptGUI(tk.Tk):
         self.category_var = tk.StringVar(
             value=self.categories[0] if self.categories else ""
         )
-        self.count_var = tk.IntVar(value=4)
+        self.count_var = tk.IntVar(value=10)
 
         self.data = (
             load_category_data(self.category_var.get())
