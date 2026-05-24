@@ -5,7 +5,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php echo h($title); ?></title>
-<meta property="og:title" content="<?php echo h($title); ?>">
 <meta name="description" content="<?php echo h($metaDesc); ?>">
 <link rel="canonical" href="<?php echo h($canonical); ?>">
 <link rel="image_src" href="<?php echo h($imageSrc); ?>">
