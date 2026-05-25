@@ -55,7 +55,7 @@ if ($page === null) {
 
 $pageTitle = $page['title'];
 $title = $pageTitle;
-$pinTitle = trim(preg_replace('/^(Free Printable\s+)|(\s+for Kids)$/iu', '', $pageTitle));
+$pinTitle = trim(str_replace(['Free Printable ', ' for Kids'], '', $pageTitle));
 
 $metaDesc = $page['description'];
 $canonical = 'https://coloring.g55.co/page.php?id=' . rawurlencode($id) . '&c=' . rawurlencode($cid);
