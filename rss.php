@@ -12,7 +12,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 <description><?php echo h(strip_tags($metaDesc)); ?></description>
 <?php foreach ($pages as $p): ?>
 <item>
-<title><?php echo h($p['title']); ?></title>
+<title><?php echo h(trim(str_replace(['Free Printable ', ' for Kids'], '', $p['title']))); ?></title>
 <link>https://coloring.g55.co/page.php?id=<?php echo rawurlencode($p['id']); ?>&amp;c=<?php echo rawurlencode($cid); ?></link>
 <guid isPermaLink="true">https://coloring.g55.co/page.php?id=<?php echo rawurlencode($p['id']); ?>&amp;c=<?php echo rawurlencode($cid); ?></guid>
 <description><?php echo h($p['description']); ?></description>
