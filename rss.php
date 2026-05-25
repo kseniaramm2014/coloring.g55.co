@@ -1,6 +1,6 @@
 <?php
 require_once 'app/index_pre.php';
-$pages = array_slice(array_reverse($pages), 0, 50);
+$pages = array_slice($pages, 0, 50);
 header('Content-Type: application/rss+xml; charset=utf-8');
 echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 ?>
