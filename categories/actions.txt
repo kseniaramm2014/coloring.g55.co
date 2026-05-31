@@ -15,6 +15,5 @@ posing
 thinking
 resting
 pointing
-balancing
 reaching
 exploring
