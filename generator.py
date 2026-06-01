@@ -32,7 +32,8 @@ POOLS = {k: [] for k in POOL_FILES.keys()}
 LIST_NAMES = ["characters", "actions", "environments"]
 COPIED_BG = "systemHighlight"
 
-GEMINI_IMAGE_MODEL = "gemini-3.1-flash-image"
+GEMINI_IMAGE_MODELS = ["gemini-3.1-flash-image", "gemini-2.5-flash-image"]
+DEFAULT_GEMINI_IMAGE_MODEL = GEMINI_IMAGE_MODELS[0]
 DEFAULT_ASPECT_RATIO = "2:3"
 ONEBIT_THRESHOLD = 200
 
@@ -391,17 +392,20 @@ def convert_image_to_1bit_png(src_path, final_png_path=None, threshold=ONEBIT_TH
         return {"ok": False, "error": str(exc), "path": src_path, "final_path": final_png_path}
 
 
-def gemini_generate_image(api_key, prompt, out_path, aspect_ratio=DEFAULT_ASPECT_RATIO):
+def gemini_generate_image(api_key, prompt, out_path, aspect_ratio=DEFAULT_ASPECT_RATIO, model_name=DEFAULT_GEMINI_IMAGE_MODEL):
     api_key = (api_key or "").strip()
     prompt = (prompt or "").strip()
     aspect_ratio = (aspect_ratio or DEFAULT_ASPECT_RATIO).strip()
+    model_name = (model_name or DEFAULT_GEMINI_IMAGE_MODEL).strip()
+    if model_name not in GEMINI_IMAGE_MODELS:
+        model_name = DEFAULT_GEMINI_IMAGE_MODEL
 
     if not api_key:
         return {"ok": False, "error": "missing_api_key"}
     if not prompt:
         return {"ok": False, "error": "missing_prompt"}
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_IMAGE_MODEL}:generateContent"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent"
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -478,7 +482,7 @@ def gemini_generate_image(api_key, prompt, out_path, aspect_ratio=DEFAULT_ASPECT
     return {"ok": True, "path": final_png_path, "source_format": src_ext, "onebit": onebit}
 
 
-def generate_image_for_page(category_name, page_id, prompt, api_key, aspect_ratio, skip_existing=True):
+def generate_image_for_page(category_name, page_id, prompt, api_key, aspect_ratio, model_name, skip_existing=True):
     out_path = image_output_path(category_name, page_id)
 
     if skip_existing and os.path.isfile(out_path) and os.path.getsize(out_path) > 0:
@@ -490,7 +494,7 @@ def generate_image_for_page(category_name, page_id, prompt, api_key, aspect_rati
             return {"ok": False, "error": "onebit_failed", "detail": onebit, "path": out_path}
         return {"ok": True, "path": out_path, "skipped_existing": True, "onebit": onebit}
 
-    return gemini_generate_image(api_key, prompt, out_path, aspect_ratio)
+    return gemini_generate_image(api_key, prompt, out_path, aspect_ratio, model_name)
 
 
 class PromptGUI(tk.Tk):
@@ -506,7 +510,7 @@ class PromptGUI(tk.Tk):
         self.categories = list_category_folders()
         self.category_var = tk.StringVar(value=self.categories[0] if self.categories else "")
         self.count_var = tk.IntVar(value=5)
-        self.api_key_var = tk.StringVar(value=os.getenv("GEMINI_API_KEY", ""))
+        self.model_var = tk.StringVar(value=DEFAULT_GEMINI_IMAGE_MODEL)
         self.aspect_ratio_var = tk.StringVar(value=DEFAULT_ASPECT_RATIO)
         self.data = load_category_data(self.category_var.get()) if self.category_var.get() else {}
 
@@ -521,8 +525,9 @@ class PromptGUI(tk.Tk):
 
         ttk.Label(top, text="Aspect:").pack(side="left", padx=(12, 4))
         ttk.Entry(top, textvariable=self.aspect_ratio_var, width=6).pack(side="left")
-        ttk.Label(top, text="API Key:").pack(side="left", padx=(12, 4))
-        ttk.Entry(top, textvariable=self.api_key_var, width=34, show="*").pack(side="left")
+        ttk.Label(top, text="Model:").pack(side="left", padx=(12, 4))
+        self.model_combo = ttk.Combobox(top, textvariable=self.model_var, values=GEMINI_IMAGE_MODELS, width=24, state="readonly")
+        self.model_combo.pack(side="left")
 
         ttk.Separator(top, orient="vertical").pack(side="left", fill="y", padx=10)
         self.counters_var = tk.StringVar(value="")
@@ -657,8 +662,9 @@ class PromptGUI(tk.Tk):
     def generate_image_for_row(self, idx, save_page=True, show_done=True):
         category_name = self.category_var.get().strip()
         page = self._page_from_row(idx)
-        api_key = self.api_key_var.get().strip() or os.getenv("GEMINI_API_KEY", "")
+        api_key = os.getenv("GEMINI_API_KEY", "")
         aspect_ratio = self.aspect_ratio_var.get().strip() or DEFAULT_ASPECT_RATIO
+        model_name = self.model_var.get().strip() or DEFAULT_GEMINI_IMAGE_MODEL
 
         if not category_name:
             if show_done:
@@ -671,6 +677,7 @@ class PromptGUI(tk.Tk):
             prompt=page["prompt"],
             api_key=api_key,
             aspect_ratio=aspect_ratio,
+            model_name=model_name,
             skip_existing=True,
         )
 
