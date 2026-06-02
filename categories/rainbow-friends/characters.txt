@@ -1,4 +1,1 @@
-rainbow friends blue
-rainbow friends green
-rainbow friends orange
-rainbow friends red
+rainbow friends

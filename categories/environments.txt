@@ -64,3 +64,14 @@ on wooden bridge
 inside crystal cave
 in pirate cove
 on island shoreline
+#animals
+in forest clearing
+in flower meadow
+on grassy hill
+near woodland stream
+in tropical rainforest
+in bamboo forest
+on savanna grassland
+in desert oasis
+near mountain lake
+in autumn forest
