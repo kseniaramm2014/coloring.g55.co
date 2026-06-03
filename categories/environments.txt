@@ -75,3 +75,14 @@ on savanna grassland
 in desert oasis
 near mountain lake
 in autumn forest
+#genshin-impact
+in mondstadt city
+near windrise tree
+in starfell valley
+in liyue harbor
+among stone forests of liyue
+in qingce village
+in inazuma city
+near grand narukami shrine
+in sumeru rainforest
+in fontaine court
