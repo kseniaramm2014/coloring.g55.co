@@ -86,3 +86,14 @@ in inazuma city
 near grand narukami shrine
 in sumeru rainforest
 in fontaine court
+#doraemon
+in neighborhood park
+in school playground
+in classroom
+in city park
+in flower garden
+in bamboo grove
+in countryside field
+near riverbank
+in town square
+in peaceful backyard
