@@ -97,3 +97,14 @@ in countryside field
 near riverbank
 in town square
 in peaceful backyard
+#totoro
+in forest clearing
+in flower meadow
+in countryside field
+near village path
+in bamboo grove
+near woodland stream
+in peaceful garden
+under giant tree
+in nature trail
+near small pond
