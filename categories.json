@@ -157,7 +157,22 @@
 {
 "id": "doraemon",
 "name": "Doraemon",
-"description": "Doraemon Coloring Pages provide printable coloring pages featuring Doraemon, Nobita, Shizuka, Gian, Suneo, and imaginative gadgets from the popular series. Illustrations include robots, gadgets, school items, parks, and houses shown in recognizable character-focused scenes. Pages place characters in classrooms, neighborhoods, parks, and city environments that support a wide variety of coloring activities. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. This category supports classroom activities, home art time, and creative practice while encouraging character recognition and artistic development."
+"description": "Doraemon Coloring Pages provide printable coloring pages featuring Doraemon, <a href='/?c=doraemon-nobita'>Nobita</a>, <a href='/?c=doraemon-shizuka'>Shizuka</a>, <a href='/?c=doraemon-dorami'>Dorami</a>, and imaginative gadgets from the popular series. Illustrations include robots, gadgets, school items, parks, and houses shown in recognizable character-focused scenes. Pages place characters in classrooms, neighborhoods, parks, and city environments that support a wide variety of coloring activities. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs for clear coloring. This category supports classroom activities, home art time, and creative practice while encouraging character recognition and artistic development."
+},
+{
+"id": "doraemon-dorami",
+"name": "Doraemon Dorami",
+"description": "Doraemon Dorami Coloring Pages provide printable coloring pages featuring Dorami in a variety of character-focused activities and scenes. Illustrations include gadgets, robots, flowers, cakes, and futuristic tools while also connecting to <a href='/?c=doraemon'>Doraemon Coloring Pages</a>. Pages place Dorami in future cities, gadget workshops, parks, and neighborhood locations that support a wide variety of coloring activities. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports classroom activities, home art time, and creative practice."
+},
+{
+"id": "doraemon-nobita",
+"name": "Doraemon Nobita",
+"description": "Doraemon Nobita Coloring Pages provide printable coloring pages featuring Nobita in a variety of school and everyday activities. Illustrations include books, backpacks, gadgets, kites, and baseball equipment while also connecting to <a href='/?c=doraemon'>Doraemon Coloring Pages</a>. Pages place Nobita in classrooms, neighborhood parks, riversides, and town settings that support a wide variety of coloring activities. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports classroom activities, home art time, and creative practice."
+},
+{
+"id": "doraemon-shizuka",
+"name": "Doraemon Shizuka",
+"description": "Doraemon Shizuka Coloring Pages provide printable coloring pages featuring Shizuka in a variety of character-focused activities and scenes. Illustrations include violins, books, flowers, bicycles, and music notes while also connecting to <a href='/?c=doraemon'>Doraemon Coloring Pages</a>. Pages place Shizuka in classrooms, gardens, parks, and neighborhood settings that support a wide variety of coloring activities. The collection includes simple outline drawings for younger children and detailed pages for older kids using clean black and white designs. This category supports classroom activities, home art time, and creative practice."
 },
 {
 "id": "dragon",
