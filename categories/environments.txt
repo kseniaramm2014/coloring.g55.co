@@ -1,154 +1,89 @@
-#rainbow-friends
-in playroom
-in indoor playground
-in colorful classroom
-in toy room
-in simple tunnel
-in party room
-on rainbow bridge
-in kindergarten classroom
-in game room
-in simple room
-#poppy-playtime
-in toy factory
-in factory hallway
-in playroom
-in toy room
-in indoor playground
-in colorful hallway
-in game room
-in puzzle room
-in kindergarten classroom
-in simple room
-#fnaf
-in pizzeria
-in security office
-in party room
-in arcade room
-in dining area
-in backstage room
-in pizza restaurant
-in game room
-in dark hallway
-in indoor playground
-#kpop-demon-hunters
-on concert stage
-in music studio
-on city rooftop
-at fantasy temple
-in moonlit garden
-in crystal cave
-in flower meadow
-under starry sky
-on mountain overlook
-at magic portal
-#spongebob
-on bikini bottom street
-on conch street
-in jellyfish fields
-in underwater flower field
-on sandy ocean floor
-in coral reef
-inside krusty krab dining area
-inside krusty krab kitchen
-at boating school
-in underwater park
-#crash-bandicoot
-on n. sanity island beach
-in jungle pathway
-in tropical rainforest
-near ancient temple ruins
-inside ancient temple
-in wumpa fruit orchard
-on wooden bridge
-inside crystal cave
-in pirate cove
-on island shoreline
-#animals
-in forest clearing
-in flower meadow
-on grassy hill
-near woodland stream
-in tropical rainforest
-in bamboo forest
-on savanna grassland
-in desert oasis
-near mountain lake
-in autumn forest
-#genshin-impact
-in mondstadt city
-near windrise tree
-in starfell valley
-in liyue harbor
-among stone forests of liyue
-in qingce village
-in inazuma city
-near grand narukami shrine
-in sumeru rainforest
-in fontaine court
-#doraemon
-in neighborhood park
-in school playground
-in classroom
-in city park
-in flower garden
-in bamboo grove
-in countryside field
-near riverbank
-in town square
-in peaceful backyard
-#totoro
-in forest clearing
-in flower meadow
-in countryside field
-near village path
-in bamboo grove
-near woodland stream
-in peaceful garden
-under giant tree
-in nature trail
-near small pond
-#chiikawa
-in flower garden
-in neighborhood park
-in countryside meadow
-near small pond
-in peaceful backyard
-in forest clearing
-in village square
-along nature trail
-in vegetable garden
-under cherry blossom tree
-#my-little-pony
-in ponyville village
-in magical kingdom
-in enchanted forest
-near crystal castle
-in friendship garden
-on rainbow meadow
-near peaceful river
-in mountain valley
-in royal courtyard
-in flower field
 #minecraft
 in village
-in forest
-in plains biome
-in cherry grove
-in flower meadow
-in desert biome
-in snowy landscape
-at cave entrance
-in mountain landscape
-beside river
-#minions
-in laboratory
-in banana garden
-in tropical island
-in secret headquarters
-in city park
-in backyard playground
-in toy room
-in castle courtyard
-in treasure room
 in village square
+in village market
+in village farm
+in village pathway
+in villager house
+in blacksmith village
+in snowy village
+in desert village
+in plains village
+in house
+in treehouse
+in castle
+in mountain house
+in underground base
+in mansion
+in woodland mansion
+in tower
+in fortress
+in starter base
+in cave
+in deep cave
+in mine entrance
+in abandoned mineshaft
+in underground tunnel
+in diamond mine
+in ore cave
+in treasure chamber
+in mining area
+in cave system
+in ancient city
+in deep dark biome
+in sculk cave
+in underground ruins
+in ancient chamber
+in warden territory
+in underground city
+in sculk ruins
+in nether fortress
+in nether portal area
+in crimson forest
+in warped forest
+in basalt delta
+in soul sand valley
+in nether cave
+in lava fortress
+in piglin bastion
+in nether bridge
+in the end
+in end city
+in end island
+in dragon arena
+in end portal room
+in obsidian tower area
+in end gateway area
+in floating end island
+in end city bridge
+in end crystal area
+underwater in ocean biome
+in coral reef
+in ocean monument
+in underwater ruin
+in shipwreck area
+in underwater cave
+in river biome
+in beach biome
+in fishing dock
+in sea turtle habitat
+in forest biome
+in jungle biome
+in desert biome
+in snowy biome
+in taiga biome
+in savanna biome
+in cherry grove biome
+in mushroom island biome
+in flower meadow
+in bamboo jungle
+in stronghold
+in jungle temple
+in desert temple
+in pillager outpost
+in trial chamber
+in ruined portal
+in bastion remnant
+in watchtower
+in dungeon
+in mob spawner room
