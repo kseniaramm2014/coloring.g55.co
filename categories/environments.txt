@@ -508,3 +508,54 @@ in hidden temple
 in magical forest
 in treasure cave
 in legendary shrine
+#digital-circus
+in digital circus tent
+in circus grounds
+in center ring
+in circus stage
+in big top arena
+in carnival midway
+in digital amusement park
+in game zone
+in adventure zone
+in quest area
+in candy canyon kingdom
+in candy village
+in candy castle
+in candy forest
+in chocolate river area
+in toy kingdom
+in toy village
+in toy castle
+in block world
+in pixel world
+in floating island
+in cloud kingdom
+in rainbow pathway
+in crystal cave
+in glowing cave
+in magical forest
+in mystery maze
+in mirror maze
+in puzzle room
+in puzzle corridor
+in digital hallway
+in colorful hallway
+in abstract world
+in surreal landscape
+in glitch zone
+in glitch corridor
+in glitch maze
+in portal chamber
+in portal room
+in teleportation hub
+in computer room
+in server room
+in virtual city
+in digital town
+in underwater kingdom
+in space station
+on alien planet
+in treasure cave
+in castle courtyard
+in adventure island
