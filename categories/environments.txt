@@ -712,3 +712,54 @@ in cloud kingdom
 on floating island
 in dreamland
 in rainbow meadow
+#my-little-pony
+in ponyville
+in canterlot
+in canterlot castle
+in crystal empire
+in crystal castle
+in sweet apple acres
+in apple orchard
+in fluttershy's cottage
+in rarity's boutique
+in sugarcube corner
+in school of friendship
+in friendship castle
+in friendship library
+in town square
+in market square
+in village street
+in pony village
+in countryside meadow
+in flower meadow
+in flower garden
+in cherry blossom garden
+in butterfly garden
+in magical forest
+in everfree forest
+in enchanted forest
+in woodland clearing
+in mushroom grove
+in rainbow meadow
+in rainbow falls
+in cloudsdale
+in cloud kingdom
+on floating cloud
+in sky garden
+in sky palace
+in crystal cave
+in crystal garden
+in crystal valley
+in mountain village
+in mountain meadow
+in snowy village
+in frozen valley
+on sandy beach
+in seaside village
+on tropical island
+in royal courtyard
+in princess castle
+in magical kingdom
+in dreamland
+in starlight meadow
+in friendship park
