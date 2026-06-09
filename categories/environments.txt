@@ -559,3 +559,54 @@ on alien planet
 in treasure cave
 in castle courtyard
 in adventure island
+#batman
+in gotham city
+in downtown gotham
+in gotham skyline
+in gotham street
+in gotham alley
+in crime alley
+in gotham rooftop
+on city rooftop
+in gotham harbor
+in gotham bridge
+in wayne manor
+in wayne manor grounds
+in batcave
+in batcomputer room
+in batcave workshop
+in batmobile garage
+in batcave tunnel
+in secret headquarters
+in justice league headquarters
+in watchtower station
+in arkham asylum
+in arkham hallway
+in arkham cell block
+in abandoned warehouse
+in industrial district
+in factory district
+in shipping yard
+in train station
+in subway station
+in city courthouse
+in city museum
+in city library
+in city bank
+in police headquarters
+in gotham police station
+in commissioner gordon's office
+in research laboratory
+in secret laboratory
+in high tech laboratory
+in underground tunnel
+in sewer tunnel
+in underground hideout
+in villain hideout
+in abandoned amusement park
+in carnival grounds
+in botanical garden
+in city park
+in clock tower
+in cathedral rooftop
+in observation tower
