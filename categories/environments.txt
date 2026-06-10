@@ -967,3 +967,156 @@ in water park
 in amusement park
 in holiday campsite
 in cherry blossom park
+#dinosaur
+in prehistoric jungle
+in prehistoric forest
+in fern forest
+in ancient woodland
+in tropical jungle
+in bamboo forest
+in cycad forest
+in conifer forest
+in prehistoric valley
+in green valley
+in mountain valley
+in river valley
+on riverbank
+in riverside meadow
+near waterfall
+in prehistoric swamp
+in marshland
+in wetland
+in muddy shoreline
+in ancient lake
+in grassland
+in open plain
+in flower meadow
+in prehistoric meadow
+in rocky canyon
+in desert canyon
+in red rock valley
+in mountain foothills
+in mountain trail
+in cliffside area
+in cave entrance
+in crystal cave
+in hidden cave
+in volcanic valley
+near volcano
+in lava field
+in ash covered plain
+in geothermal area
+on tropical island
+in coastal cliffs
+in ancient beach
+in fossil field
+in dinosaur nesting ground
+in egg hatchery area
+in prehistoric oasis
+in giant tree forest
+in misty forest
+in thunderstorm valley
+in ancient rainforest
+in lost world valley
+#crash-bandicoot
+on n sanely island
+in wumpa island
+in jungle pathway
+in tropical jungle
+in jungle village
+in jungle clearing
+in bamboo jungle
+in rainforest trail
+in river jungle
+near waterfall
+on riverbank
+in ancient temple
+in temple ruins
+in lost ruins
+in stone ruins
+in crystal cave
+in hidden cave
+in treasure cave
+in volcanic cave
+near volcano
+in volcanic valley
+in lava cave
+in mountain trail
+in mountain valley
+in cliffside area
+on rocky island
+on tropical beach
+on sandy beach
+in pirate cove
+in island harbor
+in ancient fortress
+in castle courtyard
+in desert ruins
+in desert canyon
+in snowy mountain
+in icy cave
+in frozen valley
+in prehistoric jungle
+in dinosaur valley
+in time travel portal
+in future city
+in futuristic highway
+in high tech laboratory
+in secret laboratory
+in research facility
+in factory complex
+in robot factory
+in space station
+on alien planet
+in warp room
+#dragon
+in dragon cave
+in crystal cave
+in hidden cave
+in treasure cave
+in gemstone cave
+in mountain cave
+in mountain valley
+in mountain peak
+in rocky mountains
+in snowy mountains
+in volcanic valley
+near volcano
+in lava cave
+in fire mountain
+in ancient ruins
+in ruined fortress
+in stone fortress
+in castle courtyard
+in royal castle
+in enchanted castle
+in dragon castle
+in wizard tower
+in magical tower
+in fantasy kingdom
+in dragon kingdom
+in ancient kingdom
+in magical forest
+in enchanted forest
+in ancient forest
+in misty forest
+in giant tree forest
+in woodland clearing
+in flower meadow
+in crystal meadow
+in rainbow valley
+in hidden valley
+in floating island
+in sky kingdom
+above the clouds
+in cloud kingdom
+in stormy sky
+in moonlit valley
+in starlight meadow
+in ancient temple
+in forgotten temple
+in sacred shrine
+in mystical ruins
+in treasure chamber
+in legendary sanctuary
+in magical portal area
