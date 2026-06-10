@@ -1120,3 +1120,54 @@ in mystical ruins
 in treasure chamber
 in legendary sanctuary
 in magical portal area
+#kpop-demon-hunters
+in concert arena
+on concert stage
+in music venue
+in rehearsal studio
+in dance studio
+in recording studio
+in backstage area
+in dressing room
+in practice room
+in idol training center
+in talent agency headquarters
+in performance hall
+in music video set
+in city rooftop
+in neon city
+in shopping district
+in entertainment district
+in night market
+in subway station
+in train platform
+in school classroom
+in school hallway
+in school courtyard
+in school rooftop
+in apartment rooftop
+in riverside park
+in cherry blossom park
+in bamboo grove
+in mountain temple
+in ancient temple
+in hidden shrine
+in sacred shrine
+in spirit temple
+in temple courtyard
+in spirit forest
+in enchanted forest
+in magical forest
+in moonlit forest
+in hidden cave
+in crystal cave
+in demon fortress
+in demon realm
+in spirit realm
+in shadow kingdom
+in ancient ruins
+in portal chamber
+in magical gateway
+in concert backstage tunnel
+in sky palace
+on floating island
